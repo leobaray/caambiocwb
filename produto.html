@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produto | Caambiocwb</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="b60eac_d98e0f406926414d9eb49f7b5dfb37aa~mv2.avif" alt="CAAMBIOCWB - Loja automotiva" />
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">INÍCIO</a>
+        <a href="sobre.html">SOBRE NÓS</a>
+        <a href="contato.html">CONTATO</a>
+        <a href="loja.html" class="active">LOJA</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="product-page">
+    <div class="container" id="product-container">
+      <!-- preenchido dinamicamente via products.js -->
+    </div>
+  </section>
+
+  <section class="contact-strip">
+    <div class="container contact-strip-grid">
+      <div><h5>NOSSO TELEFONE</h5><span>(41) 99693-9384 | Gabriel Melniski</span></div>
+      <div><h5>NOSSO EMAIL</h5><span>contato@caambiocwb.com.br</span></div>
+      <div><h5>NOSSOS HORÁRIOS</h5><span>Seg a Sex • 08h30 às 18h00</span></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h6>VOLTE SEMPRE</h6>
+        <p>🚗⚙️ Somos uma loja especializada em transmissão automática, com tudo que você precisa para o seu câmbio! Entre em contato! 📞🔧</p>
+      </div>
+      <div>
+        <h6>NOSSOS SERVIÇOS</h6>
+        <p>
+          ✅ Venda de hardpeças ⚙️<br>
+          ✅ Revisão de corpo de válvula 🛠️<br>
+          ✅ Revisão completa da transmissão automática 🚗
+        </p>
+      </div>
+      <div>
+        <h6>ENCONTRE-NOS</h6>
+        <p>📍 R. Aleixo Skraba, 10 — Novo Mundo<br>Curitiba — PR, 81050-480</p>
+        <p>CNPJ: 30.005.760/0001-52<br>CAAMBIOCWB COMERCIO DE PECAS LTDA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script>
+    (function () {
+      function escapeHtml(str) {
+        return String(str).replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+
+      var params = new URLSearchParams(location.search);
+      var id = params.get('id');
+      var product = id ? getProductById(id) : null;
+      var container = document.getElementById('product-container');
+
+      if (!product) {
+        container.innerHTML =
+          '<div class="product-notfound">' +
+            '<i class="fa-solid fa-triangle-exclamation"></i>' +
+            '<h1>Produto não encontrado</h1>' +
+            '<p>O produto que você procura não está disponível ou foi removido do catálogo.</p>' +
+            '<a class="btn btn-dark" href="loja.html">Voltar para a loja</a>' +
+          '</div>';
+        document.title = 'Produto não encontrado | Caambiocwb';
+        return;
+      }
+
+      document.title = product.name + ' | Caambiocwb';
+
+      var waUrl = buildWhatsAppUrl(product.name);
+      var catUrl = 'loja.html#' + encodeURIComponent(product.category);
+      var media = product.image
+        ? '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" />'
+        : '<i class="fa-solid ' + escapeHtml(product.icon || 'fa-gear') + '"></i>';
+
+      container.innerHTML =
+        '<nav class="breadcrumbs">' +
+          '<a href="index.html">Página inicial</a>' +
+          '<span>/</span>' +
+          '<a href="loja.html">Loja</a>' +
+          '<span>/</span>' +
+          '<a href="' + catUrl + '">' + escapeHtml(product.category) + '</a>' +
+          '<span>/</span>' +
+          '<span class="current">' + escapeHtml(product.name) + '</span>' +
+        '</nav>' +
+
+        '<div class="product-detail">' +
+          '<div class="product-media">' + media + '</div>' +
+          '<div class="product-body">' +
+            '<span class="product-cat">' + escapeHtml(product.category) + '</span>' +
+            '<h1>' + escapeHtml(product.name) + '</h1>' +
+            '<p class="product-short">' + escapeHtml(product.shortDescription) + '</p>' +
+            '<div class="product-long"><p>' + escapeHtml(product.longDescription) + '</p></div>' +
+            '<a class="btn btn-wa" href="' + waUrl + '" target="_blank" rel="noopener">' +
+              '<i class="fa-brands fa-whatsapp"></i> FALAR SOBRE ESSA PEÇA NO WHATSAPP' +
+            '</a>' +
+            '<a class="btn btn-ghost" href="loja.html">' +
+              '<i class="fa-solid fa-arrow-left"></i> Voltar para a loja' +
+            '</a>' +
+          '</div>' +
+        '</div>';
+    })();
+  </script>
+</body>
+</html>

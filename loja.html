@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loja | Caambiocwb</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="b60eac_d98e0f406926414d9eb49f7b5dfb37aa~mv2.avif" alt="CAAMBIOCWB - Loja automotiva" />
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">INÍCIO</a>
+        <a href="sobre.html">SOBRE NÓS</a>
+        <a href="contato.html">CONTATO</a>
+        <a href="loja.html" class="active">LOJA</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="shop">
+    <div class="container">
+      <nav class="breadcrumbs">
+        <a href="index.html">Página inicial</a>
+        <span>/</span>
+        <a href="loja.html">Todos os produtos</a>
+      </nav>
+
+      <div class="shop-grid">
+        <aside class="shop-sidebar">
+          <h4>Buscar por</h4>
+          <ul class="categories" id="categories"></ul>
+        </aside>
+
+        <div class="shop-main">
+          <div class="shop-header">
+            <h2 id="shop-title">Todos os produtos</h2>
+            <span class="count" id="shop-count"></span>
+          </div>
+          <div class="products-grid" id="products-grid"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <i class="fa-solid fa-box-open"></i>
+            <p>Nenhum produto cadastrado nesta categoria ainda.</p>
+            <a class="btn btn-dark" href="contato.html">Fale conosco</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-strip">
+    <div class="container contact-strip-grid">
+      <div><h5>NOSSO TELEFONE</h5><span>(41) 99693-9384 | Gabriel Melniski</span></div>
+      <div><h5>NOSSO EMAIL</h5><span>contato@caambiocwb.com.br</span></div>
+      <div><h5>NOSSOS HORÁRIOS</h5><span>Seg a Sex • 08h30 às 18h00</span></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h6>VOLTE SEMPRE</h6>
+        <p>🚗⚙️ Somos uma loja especializada em transmissão automática, com tudo que você precisa para o seu câmbio! Entre em contato! 📞🔧</p>
+      </div>
+      <div>
+        <h6>NOSSOS SERVIÇOS</h6>
+        <p>
+          ✅ Venda de hardpeças ⚙️<br>
+          ✅ Revisão de corpo de válvula 🛠️<br>
+          ✅ Revisão completa da transmissão automática 🚗
+        </p>
+      </div>
+      <div>
+        <h6>ENCONTRE-NOS</h6>
+        <p>📍 R. Aleixo Skraba, 10 — Novo Mundo<br>Curitiba — PR, 81050-480</p>
+        <p>CNPJ: 30.005.760/0001-52<br>CAAMBIOCWB COMERCIO DE PECAS LTDA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script>
+    (function () {
+      var categoriesEl = document.getElementById('categories');
+      var gridEl = document.getElementById('products-grid');
+      var titleEl = document.getElementById('shop-title');
+      var countEl = document.getElementById('shop-count');
+      var emptyEl = document.getElementById('empty-state');
+
+      var currentCategory = 'all';
+      var initialHash = decodeURIComponent(location.hash.replace('#', ''));
+      if (initialHash && (initialHash === 'all' || CATEGORIES.indexOf(initialHash) >= 0)) {
+        currentCategory = initialHash;
+      }
+
+      function escapeHtml(str) {
+        return String(str).replace(/[&<>"']/g, function (c) {
+          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+      }
+
+      function renderCategories() {
+        var items = ['<li data-cat="all"><a href="#all">Todos os produtos</a></li>'];
+        for (var i = 0; i < CATEGORIES.length; i++) {
+          var cat = CATEGORIES[i];
+          items.push(
+            '<li data-cat="' + escapeHtml(cat) + '">' +
+              '<a href="#' + encodeURIComponent(cat) + '">' + escapeHtml(cat) + '</a>' +
+            '</li>'
+          );
+        }
+        categoriesEl.innerHTML = items.join('');
+
+        Array.prototype.forEach.call(categoriesEl.querySelectorAll('li'), function (li) {
+          li.addEventListener('click', function (e) {
+            e.preventDefault();
+            currentCategory = li.getAttribute('data-cat');
+            if (currentCategory === 'all') {
+              history.replaceState(null, '', 'loja.html');
+            } else {
+              location.hash = encodeURIComponent(currentCategory);
+            }
+            renderProducts();
+            markActiveCategory();
+          });
+        });
+      }
+
+      function markActiveCategory() {
+        Array.prototype.forEach.call(categoriesEl.querySelectorAll('li'), function (li) {
+          if (li.getAttribute('data-cat') === currentCategory) {
+            li.classList.add('active');
+          } else {
+            li.classList.remove('active');
+          }
+        });
+      }
+
+      function renderProducts() {
+        var list = getProductsByCategory(currentCategory);
+        titleEl.textContent = currentCategory === 'all' ? 'Todos os produtos' : currentCategory;
+        countEl.textContent = list.length + (list.length === 1 ? ' produto' : ' produtos');
+
+        if (list.length === 0) {
+          gridEl.innerHTML = '';
+          emptyEl.hidden = false;
+          return;
+        }
+        emptyEl.hidden = true;
+
+        var cards = list.map(function (p) {
+          var media = p.image
+            ? '<img src="' + escapeHtml(p.image) + '" alt="' + escapeHtml(p.name) + '" />'
+            : '<i class="fa-solid ' + escapeHtml(p.icon || 'fa-gear') + '"></i>';
+          return (
+            '<a class="product" href="' + buildProductUrl(p.id) + '">' +
+              '<div class="thumb">' + media + '</div>' +
+              '<h5>' + escapeHtml(p.name) + '</h5>' +
+              '<span class="product-cat-tag">' + escapeHtml(p.category) + '</span>' +
+              '<span class="product-cta">Ver detalhes <i class="fa-solid fa-arrow-right"></i></span>' +
+            '</a>'
+          );
+        });
+        gridEl.innerHTML = cards.join('');
+      }
+
+      renderCategories();
+      markActiveCategory();
+      renderProducts();
+    })();
+  </script>
+</body>
+</html>
