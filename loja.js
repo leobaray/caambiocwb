@@ -12,6 +12,7 @@
   var countEl = document.getElementById('shop-count');
   var tagsEl = document.getElementById('filter-tags');
   var gridEl = document.getElementById('products-grid');
+  var maisEl = document.getElementById('load-more');
 
   if (!gridEl) return;
 
@@ -152,15 +153,40 @@
     tagsEl.hidden = tags.length === 0;
   }
 
+  /* Com 347 peças no catálogo, montar tudo de uma vez enche a página
+     de card e deixa a rolagem pesada. Mostra em blocos. */
+  var POR_VEZ = 24;
+  var visiveis = POR_VEZ;
+  var listaAtual = [];
+
+  function renderLote() {
+    gridEl.innerHTML = listaAtual.slice(0, visiveis).map(productCardHtml).join('');
+
+    var faltam = listaAtual.length - visiveis;
+    maisEl.hidden = faltam <= 0;
+    if (faltam > 0) {
+      maisEl.querySelector('button').textContent =
+        'Ver mais ' + Math.min(POR_VEZ, faltam) + ' peças';
+      maisEl.querySelector('p').textContent =
+        'Mostrando ' + visiveis + ' de ' + listaAtual.length;
+    }
+  }
+
   function render() {
-    var list = searchProducts(getProductsByCategory(state.category), state.query);
+    listaAtual = searchProducts(getProductsByCategory(state.category), state.query);
+    visiveis = POR_VEZ;
 
     titleEl.textContent = state.category === 'all' ? 'Todos os produtos' : state.category;
-    countEl.textContent = list.length + (list.length === 1 ? ' peça' : ' peças');
+    countEl.textContent = listaAtual.length + (listaAtual.length === 1 ? ' peça' : ' peças');
 
     document.title = (state.category === 'all' ? 'Catálogo de peças' : state.category) + ' | CAAMBIOCWB';
 
-    gridEl.innerHTML = list.length ? list.map(productCardHtml).join('') : emptyState();
+    if (!listaAtual.length) {
+      gridEl.innerHTML = emptyState();
+      maisEl.hidden = true;
+    } else {
+      renderLote();
+    }
 
     renderTags();
     markActiveCategory();
@@ -191,6 +217,16 @@
 
       pushState(false);
       render();
+    });
+  }
+
+  if (maisEl) {
+    maisEl.querySelector('button').addEventListener('click', function () {
+      var jaTinha = visiveis;
+      visiveis += POR_VEZ;
+      renderLote();
+      var cards = gridEl.querySelectorAll('.product');
+      if (cards[jaTinha]) cards[jaTinha].focus({ preventScroll: true });
     });
   }
 

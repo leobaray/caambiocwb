@@ -4,6 +4,9 @@ Site estático (HTML, CSS e JavaScript puro) da CAAMBIOCWB, loja de peças
 para transmissão automática em Curitiba — PR. Sem build, sem framework,
 sem dependência de servidor: é só publicar a pasta.
 
+São **347 peças em 40 transmissões, com 1.138 fotos**, importadas do site
+antigo em Wix.
+
 ## Como rodar
 
 Abrir o `index.html` direto no navegador funciona, mas a página do produto
@@ -17,9 +20,9 @@ python -m http.server 8000
 ## Estrutura
 
 ```
-index.html      página inicial
+index.html      página inicial (com vitrine de peças)
 loja.html       catálogo, filtro por transmissão e busca
-produto.html    página de uma peça (montada por produto.js)
+produto.html    página de uma peça com galeria (montada por produto.js)
 sobre.html      sobre a empresa e como funciona o atendimento
 contato.html    formulário, dados de contato e mapa
 404.html        página de erro
@@ -27,12 +30,34 @@ contato.html    formulário, dados de contato e mapa
 styles.css      toda a folha de estilo (tokens no topo do arquivo)
 site.js         dados da empresa + comportamentos de todas as páginas
 products.js     catálogo de peças e consultas
+home.js         vitrine da página inicial
 loja.js         lógica da tela de catálogo
 produto.js      lógica da página de peça
 
-assets/         imagens usadas no site
-referencia/     material de origem (prints e textos do site antigo) — não é publicado
+assets/produtos/<id>/    fotos que vão ao ar (AVIF 900px + capa de 400px)
+assets/parceiros/        logos das empresas parceiras
+fotos-originais/<id>/    originais em JPG vindos do site antigo (216 MB)
+referencia/              material de origem do site antigo
 ```
+
+## As fotos
+
+`fotos-originais/` guarda as **1.138 fotos originais** baixadas do site em
+Wix, na resolução em que o dono publicou (900×1600 na maioria). Essa pasta
+está no `.gitignore` para não inchar o repositório — **faça backup dela em
+um HD ou na nuvem**, porque é a única cópia fora do Wix. Para versioná-la
+junto, apague a linha `fotos-originais/` do `.gitignore`.
+
+`assets/produtos/` tem as versões que o site usa, geradas a partir dos
+originais:
+
+- `NN.avif` — 900px no lado maior, usada na página da peça e na galeria.
+- `NN-thumb.avif` — 400×400, recortada no **foco da peça** (não no centro
+  geométrico da foto) e usada no card da loja.
+
+Algumas fotos do cadastro antigo são prints com uma tarja de texto do
+WhatsApp em cima. Quando isso acontece na foto 01, o campo `cover` do
+produto aponta para a primeira foto limpa, e é ela que vira a capa.
 
 ## Manutenção do dia a dia
 
@@ -40,13 +65,14 @@ referencia/     material de origem (prints e textos do site antigo) — não é 
 estão comentadas no topo do arquivo. Ao criar uma peça nova, acrescente
 também a URL dela no `sitemap.xml`.
 
+**Fotos de uma peça nova** → crie `assets/produtos/<id>/`, coloque
+`01.avif`, `02.avif`… (900px) e a capa `01-thumb.avif` (400×400), e ajuste
+o campo `photos` para a quantidade.
+
 **Trocar telefone, e-mail, endereço ou horário** → `site.js`, no objeto
 `SITE`, no começo do arquivo. Os textos que aparecem no rodapé e na faixa
 verde estão nos HTMLs (o mesmo bloco se repete em todas as páginas — se
-mudar um, mude nos cinco).
-
-**Foto de produto** → coloque o arquivo em `assets/produtos/` e preencha o
-campo `image` da peça. Enquanto não houver foto, o site mostra um ícone.
+mudar um, mude nos seis).
 
 **Perfis sociais** → hoje o rodapé só tem links que funcionam de verdade
 (WhatsApp, e-mail, telefone e mapa). Quando existirem os perfis do

@@ -1,5 +1,5 @@
 /* ============================================================
-   produto.js — página de uma peça
+   produto.js — página de uma peça, com galeria de fotos
    Depende de site.js (escapeHtml, SITE) e products.js (dados).
    ============================================================ */
 (function () {
@@ -31,37 +31,56 @@
   /* ---------- cabeça do documento ---------- */
   var pageUrl = SITE.origin + '/' + buildProductUrl(product.id);
   var pageTitle = product.name + ' — ' + product.category + ' | CAAMBIOCWB';
+  var resumo = product.name + ' para câmbio automático ' + product.transmission +
+    (product.application ? ' (' + product.application + ')' : '') + '. Orçamento pelo WhatsApp.';
 
   document.title = pageTitle;
-  setMeta('description', product.shortDescription + ' Peça ' + product.condition.toLowerCase() +
-    ' para câmbio ' + product.category + '. Orçamento pelo WhatsApp.');
+  setMeta('description', resumo);
   setLink('canonical', pageUrl);
   setMeta('og:title', pageTitle, 'property');
-  setMeta('og:description', product.shortDescription, 'property');
+  setMeta('og:description', resumo, 'property');
   setMeta('og:url', pageUrl, 'property');
+  setMeta('og:image', SITE.origin + '/' + productPhoto(product, product.cover || 1), 'property');
 
   /* ---------- conteúdo ---------- */
   var categoryUrl = buildCategoryUrl(product.category);
   var waUrl = buildWhatsAppUrl(
-    'Olá! Tenho interesse na peça "' + product.name + '" para o câmbio ' + product.category + '. Ainda tem disponível?'
+    'Olá! Tenho interesse na peça "' + product.name + '" para o câmbio ' +
+    product.transmission + '. Ainda tem disponível?'
   );
+  var altBase = product.name + ' para câmbio ' + product.category;
+  var capa = product.cover || 1;
 
-  var media = product.image
-    ? '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" />'
-    : '<i class="fa-solid ' + escapeHtml(product.icon || 'fa-gear') + '" aria-hidden="true"></i>';
+  var miniaturas = '';
+  if (product.photos > 1) {
+    var itens = [];
+    for (var i = 1; i <= product.photos; i++) {
+      itens.push(
+        '<button type="button" class="gallery-thumb' + (i === capa ? ' is-active' : '') + '" ' +
+          'data-photo="' + escapeHtml(productPhoto(product, i)) + '" ' +
+          'aria-label="Ver foto ' + i + ' de ' + product.photos + '">' +
+          '<img src="' + escapeHtml(productPhoto(product, i)) + '" loading="lazy" alt="" />' +
+        '</button>'
+      );
+    }
+    miniaturas = '<div class="gallery-strip" role="group" aria-label="Fotos da peça">' + itens.join('') + '</div>';
+  }
 
   var specs =
     '<div>' +
       '<dt>Transmissão</dt>' +
+      '<dd>' + escapeHtml(product.transmission) + '</dd>' +
+    '</div>' +
+    (product.application
+      ? '<div><dt>Aplicação</dt><dd>' + escapeHtml(product.application) + '</dd></div>'
+      : '') +
+    '<div>' +
+      '<dt>Categoria</dt>' +
       '<dd><a href="' + escapeHtml(categoryUrl) + '">' + escapeHtml(product.category) + '</a></dd>' +
     '</div>' +
-    '<div>' +
-      '<dt>Condição</dt>' +
-      '<dd><span class="badge ' + (CONDITION_CLASS[product.condition] || '') + '">' +
-        escapeHtml(product.condition) + '</span></dd>' +
-    '</div>' +
-    (product.applications && product.applications.length
-      ? '<div><dt>Aplicação</dt><dd>' + escapeHtml(product.applications.join(' · ')) + '</dd></div>'
+    (product.condition
+      ? '<div><dt>Condição</dt><dd><span class="badge badge--original">' +
+        escapeHtml(product.condition) + '</span></dd></div>'
       : '') +
     '<div><dt>Disponibilidade</dt><dd>Sob consulta — confirmamos no atendimento</dd></div>';
 
@@ -77,7 +96,16 @@
     '</nav>' +
 
     '<div class="product-detail">' +
-      '<div class="product-media">' + media + '</div>' +
+      '<div class="product-gallery">' +
+        '<div class="product-media">' +
+          '<img id="product-photo" src="' + escapeHtml(productPhoto(product, capa)) + '" ' +
+            'alt="' + escapeHtml(altBase) + '" fetchpriority="high" />' +
+        '</div>' +
+        miniaturas +
+        (product.photos > 1
+          ? '<p class="gallery-hint">' + product.photos + ' fotos desta peça</p>'
+          : '') +
+      '</div>' +
 
       '<div>' +
         '<div class="product-headline">' +
@@ -85,11 +113,13 @@
           '<p class="product-ref">Ref. ' + escapeHtml(product.id.toUpperCase()) + '</p>' +
         '</div>' +
 
-        '<p class="product-short">' + escapeHtml(product.shortDescription) + '</p>' +
+        '<p class="product-short">' +
+          escapeHtml(product.name) + ' para transmissão automática ' +
+          escapeHtml(product.transmission) + '.' +
+          (product.application ? ' Aplicação em ' + escapeHtml(product.application) + '.' : '') +
+        '</p>' +
 
         '<dl class="spec-list">' + specs + '</dl>' +
-
-        '<div class="product-long"><p>' + escapeHtml(product.longDescription) + '</p></div>' +
 
         '<div class="product-actions">' +
           '<a class="btn btn-wa" href="' + escapeHtml(waUrl) + '" target="_blank" rel="noopener">' +
@@ -100,16 +130,29 @@
       '</div>' +
     '</div>';
 
+  /* ---------- galeria ---------- */
+  var foto = document.getElementById('product-photo');
+  var strip = container.querySelector('.gallery-strip');
+  if (strip && foto) {
+    strip.addEventListener('click', function (e) {
+      var botao = e.target.closest('.gallery-thumb');
+      if (!botao) return;
+      foto.src = botao.getAttribute('data-photo');
+      var ativos = strip.querySelectorAll('.gallery-thumb');
+      for (var i = 0; i < ativos.length; i++) ativos[i].classList.remove('is-active');
+      botao.classList.add('is-active');
+    });
+  }
+
   /* ---------- peças relacionadas ---------- */
-  var related = getRelatedProducts(product, 3);
+  var related = getRelatedProducts(product, 4);
   var relatedSection = document.getElementById('related-section');
   var relatedGrid = document.getElementById('related-grid');
   var relatedTitle = document.getElementById('related-title');
 
   if (related.length && relatedSection && relatedGrid) {
-    var sameCategory = related[0].category === product.category;
     if (relatedTitle) {
-      relatedTitle.textContent = sameCategory
+      relatedTitle.textContent = related[0].category === product.category
         ? 'Outras peças para ' + product.category
         : 'Outras peças do catálogo';
     }
@@ -118,20 +161,21 @@
   }
 
   /* ---------- dados estruturados ---------- */
+  var fotos = [];
+  for (var f = 1; f <= product.photos; f++) fotos.push(SITE.origin + '/' + productPhoto(product, f));
+
   addJsonLd({
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'Product',
         name: product.name,
-        description: product.longDescription,
+        description: resumo,
         sku: product.id.toUpperCase(),
         category: product.category,
         url: pageUrl,
-        image: SITE.origin + '/assets/og-caambiocwb.jpg',
-        itemCondition: product.condition === 'Nova'
-          ? 'https://schema.org/NewCondition'
-          : 'https://schema.org/RefurbishedCondition'
+        image: fotos,
+        itemCondition: 'https://schema.org/UsedCondition'
       },
       {
         '@type': 'BreadcrumbList',
