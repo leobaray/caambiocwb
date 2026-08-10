@@ -13,6 +13,7 @@
   var tagsEl = document.getElementById('filter-tags');
   var gridEl = document.getElementById('products-grid');
   var maisEl = document.getElementById('load-more');
+  var filtersEl = document.getElementById('filters');
 
   if (!gridEl) return;
 
@@ -194,6 +195,26 @@
 
   /* ---------- eventos ---------- */
 
+  /* Trocar de transmissão troca a grade inteira. Se o visitante estava lá
+     embaixo, o resultado novo nasce fora da vista dele — então leva a
+     página de volta para o começo da lista. Só mexe no scroll quando o
+     topo da lista já saiu da tela; se ele já está vendo, fica quieto. */
+  function irParaResultados() {
+    var alvo = document.querySelector('.shop-toolbar');
+    if (!alvo) return;
+
+    var cabecalho = document.querySelector('.site-header');
+    var folga = (cabecalho ? cabecalho.getBoundingClientRect().height : 0) + 16;
+    var topo = alvo.getBoundingClientRect().top;
+    if (topo >= folga) return;
+
+    var suave = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({
+      top: window.scrollY + topo - folga,
+      behavior: suave ? 'smooth' : 'auto'
+    });
+  }
+
   categoriesEl.addEventListener('click', function (e) {
     var link = e.target.closest('a');
     if (!link || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
@@ -202,9 +223,11 @@
     state.category = link.parentNode.getAttribute('data-cat');
     pushState(false);
     render();
-    if (window.innerWidth <= 1000) {
-      document.getElementById('shop-title').scrollIntoView({ block: 'start' });
-    }
+
+    /* no celular a lista de transmissões é um acordeão em cima da grade:
+       fecha para o resultado aparecer sem precisar rolar por ela */
+    if (filtersEl && window.innerWidth <= 1000) filtersEl.open = false;
+    irParaResultados();
   });
 
   if (tagsEl) {
@@ -217,6 +240,7 @@
 
       pushState(false);
       render();
+      irParaResultados();
     });
   }
 
@@ -258,7 +282,6 @@
 
   /* No desktop a barra lateral fica sempre aberta; no celular ela vira
      um acordeão para os produtos não ficarem soterrados pela lista. */
-  var filtersEl = document.getElementById('filters');
   if (filtersEl) {
     var syncFilters = function () {
       if (window.innerWidth > 1000) filtersEl.open = true;
