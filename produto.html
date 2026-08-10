@@ -1,137 +1,205 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Produto | Caambiocwb</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <title>Peça | CAAMBIOCWB</title>
+  <meta name="description" content="Detalhes da peça para transmissão automática: transmissão atendida, condição, aplicação e orçamento pelo WhatsApp. CAAMBIOCWB, Curitiba — PR." />
+  <link rel="canonical" href="https://caambiocwb.com.br/produto.html" />
+
+  <meta name="theme-color" content="#0c0c0c" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <meta property="og:type" content="product" />
+  <meta property="og:site_name" content="CAAMBIOCWB" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Peça | CAAMBIOCWB" />
+  <meta property="og:description" content="Peça para transmissão automática. Orçamento pelo WhatsApp." />
+  <meta property="og:url" content="https://caambiocwb.com.br/produto.html" />
+  <meta property="og:image" content="https://caambiocwb.com.br/assets/og-caambiocwb.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body data-page="produto">
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <ul class="topbar-list">
+        <li class="topbar-priority"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Novo Mundo, Curitiba — PR</li>
+        <li><i class="fa-regular fa-clock" aria-hidden="true"></i>Seg a Sex, 08h30 às 18h00</li>
+        <li class="shop-status" data-business-status hidden></li>
+      </ul>
+      <ul class="topbar-list">
+        <li class="topbar-priority"><a href="tel:+5541996939384"><i class="fa-solid fa-phone" aria-hidden="true"></i>(41) 99693-9384</a></li>
+        <li><a href="mailto:contato@caambiocwb.com.br"><i class="fa-solid fa-envelope" aria-hidden="true"></i>contato@caambiocwb.com.br</a></li>
+      </ul>
+    </div>
+  </div>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <img src="b60eac_d98e0f406926414d9eb49f7b5dfb37aa~mv2.avif" alt="CAAMBIOCWB - Loja automotiva" />
+      <a class="logo" href="index.html">
+        <img src="assets/caambiocwb-transmissao.avif" width="410" height="260" alt="" />
+        <span class="logo-text">
+          <span class="logo-name">CAAMBIOCWB</span>
+          <span class="logo-tag">Loja automotiva</span>
+        </span>
       </a>
-      <nav class="main-nav">
-        <a href="index.html">INÍCIO</a>
-        <a href="sobre.html">SOBRE NÓS</a>
-        <a href="contato.html">CONTATO</a>
-        <a href="loja.html" class="active">LOJA</a>
-      </nav>
+
+      <div class="header-actions">
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="index.html" data-nav="home">Início</a>
+          <a href="loja.html" data-nav="loja">Loja</a>
+          <a href="sobre.html" data-nav="sobre">Sobre nós</a>
+          <a href="contato.html" data-nav="contato">Contato</a>
+        </nav>
+        <a class="btn btn-green btn-sm" href="https://wa.me/5541996939384?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento%20de%20pe%C3%A7a%20para%20c%C3%A2mbio%20autom%C3%A1tico." target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Orçamento
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   </header>
 
-  <section class="product-page">
-    <div class="container" id="product-container">
-      <!-- preenchido dinamicamente via products.js -->
-    </div>
-  </section>
+  <main id="conteudo">
 
-  <section class="contact-strip">
-    <div class="container contact-strip-grid">
-      <div><h5>NOSSO TELEFONE</h5><span>(41) 99693-9384 | Gabriel Melniski</span></div>
-      <div><h5>NOSSO EMAIL</h5><span>contato@caambiocwb.com.br</span></div>
-      <div><h5>NOSSOS HORÁRIOS</h5><span>Seg a Sex • 08h30 às 18h00</span></div>
+    <section class="section">
+      <div class="container" id="product-container">
+        <noscript>
+          <div class="product-notfound">
+            <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+            <h1>Esta página precisa de JavaScript</h1>
+            <p>Ative o JavaScript para ver os detalhes da peça, ou fale direto com a gente pelo WhatsApp.</p>
+            <a class="btn btn-wa" href="https://wa.me/5541996939384" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Falar no WhatsApp
+            </a>
+          </div>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section section--surface" id="related-section" hidden>
+      <div class="container">
+        <h2 class="rule-title"><span id="related-title">Outras peças</span></h2>
+        <div class="products-grid" id="related-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="contact-strip" aria-label="Canais de atendimento">
+    <div class="container">
+      <div class="contact-strip-item">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        <div>
+          <p class="strip-label">Nosso telefone</p>
+          <p><a href="tel:+5541996939384">(41) 99693-9384</a> · Gabriel Melniski</p>
+        </div>
+      </div>
+      <div class="contact-strip-item">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <div>
+          <p class="strip-label">Nosso e-mail</p>
+          <p><a href="mailto:contato@caambiocwb.com.br">contato@caambiocwb.com.br</a></p>
+        </div>
+      </div>
+      <div class="contact-strip-item">
+        <i class="fa-regular fa-clock" aria-hidden="true"></i>
+        <div>
+          <p class="strip-label">Nossos horários</p>
+          <p>Segunda a sexta, das 08h30 às 18h00</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h6>VOLTE SEMPRE</h6>
-        <p>🚗⚙️ Somos uma loja especializada em transmissão automática, com tudo que você precisa para o seu câmbio! Entre em contato! 📞🔧</p>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">
+            <span class="logo-name">CAAMBIOCWB</span>
+            <span class="logo-tag">Loja automotiva</span>
+          </span>
+          <p>Somos uma loja especializada em transmissão automática, com tudo que você precisa para o seu câmbio.</p>
+          <p><a class="link" href="contato.html">Fale com um especialista</a></p>
+        </div>
+
+        <div>
+          <h2>Nossos serviços</h2>
+          <ul class="footer-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Venda de hardpeças</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Revisão de corpo de válvula</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Revisão completa da transmissão</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Navegação</h2>
+          <ul class="footer-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="loja.html">Catálogo de peças</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Encontre-nos</h2>
+          <address class="footer-address">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Aleixo%20Skraba%2C%2010%20-%20Novo%20Mundo%2C%20Curitiba%20-%20PR%2C%2081050-480" target="_blank" rel="noopener">
+              R. Aleixo Skraba, 10 — Novo Mundo<br />Curitiba — PR, 81050-480
+            </a>
+            <a href="tel:+5541996939384">(41) 99693-9384</a>
+            <a href="mailto:contato@caambiocwb.com.br">contato@caambiocwb.com.br</a>
+            <span>Segunda a sexta, 08h30 às 18h00</span>
+          </address>
+        </div>
       </div>
-      <div>
-        <h6>NOSSOS SERVIÇOS</h6>
-        <p>
-          ✅ Venda de hardpeças ⚙️<br>
-          ✅ Revisão de corpo de válvula 🛠️<br>
-          ✅ Revisão completa da transmissão automática 🚗
-        </p>
-      </div>
-      <div>
-        <h6>ENCONTRE-NOS</h6>
-        <p>📍 R. Aleixo Skraba, 10 — Novo Mundo<br>Curitiba — PR, 81050-480</p>
-        <p>CNPJ: 30.005.760/0001-52<br>CAAMBIOCWB COMERCIO DE PECAS LTDA</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="socials">
-        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <span>CNPJ 30.005.760/0001-52 — CAAMBIOCWB Comercio de Pecas LTDA</span>
+          <span>© <span data-year>2026</span> CAAMBIOCWB. Todos os direitos reservados.</span>
+        </div>
+        <!-- Perfis sociais: quando tiver os links do Instagram/Facebook,
+             acrescente aqui no mesmo formato dos itens abaixo. -->
+        <div class="socials">
+          <a href="https://wa.me/5541996939384" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:contato@caambiocwb.com.br" aria-label="Enviar e-mail">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="tel:+5541996939384" aria-label="Ligar para a loja">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Aleixo%20Skraba%2C%2010%20-%20Novo%20Mundo%2C%20Curitiba%20-%20PR%2C%2081050-480" target="_blank" rel="noopener" aria-label="Ver no mapa">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
 
+  <a class="wa-float" href="https://wa.me/5541996939384?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span>
+  </a>
+
+  <script src="site.js"></script>
   <script src="products.js"></script>
-  <script>
-    (function () {
-      function escapeHtml(str) {
-        return String(str).replace(/[&<>"']/g, function (c) {
-          return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-        });
-      }
-
-      var params = new URLSearchParams(location.search);
-      var id = params.get('id');
-      var product = id ? getProductById(id) : null;
-      var container = document.getElementById('product-container');
-
-      if (!product) {
-        container.innerHTML =
-          '<div class="product-notfound">' +
-            '<i class="fa-solid fa-triangle-exclamation"></i>' +
-            '<h1>Produto não encontrado</h1>' +
-            '<p>O produto que você procura não está disponível ou foi removido do catálogo.</p>' +
-            '<a class="btn btn-dark" href="loja.html">Voltar para a loja</a>' +
-          '</div>';
-        document.title = 'Produto não encontrado | Caambiocwb';
-        return;
-      }
-
-      document.title = product.name + ' | Caambiocwb';
-
-      var waUrl = buildWhatsAppUrl(product.name);
-      var catUrl = 'loja.html#' + encodeURIComponent(product.category);
-      var media = product.image
-        ? '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '" />'
-        : '<i class="fa-solid ' + escapeHtml(product.icon || 'fa-gear') + '"></i>';
-
-      container.innerHTML =
-        '<nav class="breadcrumbs">' +
-          '<a href="index.html">Página inicial</a>' +
-          '<span>/</span>' +
-          '<a href="loja.html">Loja</a>' +
-          '<span>/</span>' +
-          '<a href="' + catUrl + '">' + escapeHtml(product.category) + '</a>' +
-          '<span>/</span>' +
-          '<span class="current">' + escapeHtml(product.name) + '</span>' +
-        '</nav>' +
-
-        '<div class="product-detail">' +
-          '<div class="product-media">' + media + '</div>' +
-          '<div class="product-body">' +
-            '<span class="product-cat">' + escapeHtml(product.category) + '</span>' +
-            '<h1>' + escapeHtml(product.name) + '</h1>' +
-            '<p class="product-short">' + escapeHtml(product.shortDescription) + '</p>' +
-            '<div class="product-long"><p>' + escapeHtml(product.longDescription) + '</p></div>' +
-            '<a class="btn btn-wa" href="' + waUrl + '" target="_blank" rel="noopener">' +
-              '<i class="fa-brands fa-whatsapp"></i> FALAR SOBRE ESSA PEÇA NO WHATSAPP' +
-            '</a>' +
-            '<a class="btn btn-ghost" href="loja.html">' +
-              '<i class="fa-solid fa-arrow-left"></i> Voltar para a loja' +
-            '</a>' +
-          '</div>' +
-        '</div>';
-    })();
-  </script>
+  <script src="produto.js"></script>
 </body>
 </html>

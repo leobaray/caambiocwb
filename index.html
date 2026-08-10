@@ -1,187 +1,346 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Caambiocwb Catálogo de Peças | Loja Online de Transmissões</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
 
-  <!-- HEADER -->
+  <!-- Se o domínio publicado for outro, troque-o aqui, nas demais páginas,
+       no sitemap.xml, no robots.txt e em SITE.origin (site.js). -->
+  <title>CAAMBIOCWB — Peças para transmissão automática em Curitiba</title>
+  <meta name="description" content="Loja especializada em peças de reposição para transmissão automática: corpo de válvula, bomba de óleo, planetária, conjunto de pulias e câmbios completos. Atendimento por WhatsApp em Curitiba — PR." />
+  <link rel="canonical" href="https://caambiocwb.com.br/" />
+
+  <meta name="theme-color" content="#0c0c0c" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CAAMBIOCWB" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="CAAMBIOCWB — Peças para transmissão automática" />
+  <meta property="og:description" content="Peças de reposição para câmbio automático, revisadas e testadas. Orçamento pelo WhatsApp. Curitiba — PR." />
+  <meta property="og:url" content="https://caambiocwb.com.br/" />
+  <meta property="og:image" content="https://caambiocwb.com.br/assets/og-caambiocwb.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoPartsStore",
+    "name": "CAAMBIOCWB",
+    "legalName": "CAAMBIOCWB Comercio de Pecas LTDA",
+    "description": "Loja especializada em peças de reposição para transmissão automática.",
+    "url": "https://caambiocwb.com.br/",
+    "image": "https://caambiocwb.com.br/assets/og-caambiocwb.jpg",
+    "telephone": "+5541996939384",
+    "email": "contato@caambiocwb.com.br",
+    "taxID": "30.005.760/0001-52",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Aleixo Skraba, 10 - Novo Mundo",
+      "addressLocality": "Curitiba",
+      "addressRegion": "PR",
+      "postalCode": "81050-480",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:30",
+      "closes": "18:00"
+    }]
+  }
+  </script>
+</head>
+<body data-page="home">
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <ul class="topbar-list">
+        <li class="topbar-priority"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Novo Mundo, Curitiba — PR</li>
+        <li><i class="fa-regular fa-clock" aria-hidden="true"></i>Seg a Sex, 08h30 às 18h00</li>
+        <li class="shop-status" data-business-status hidden></li>
+      </ul>
+      <ul class="topbar-list">
+        <li class="topbar-priority"><a href="tel:+5541996939384"><i class="fa-solid fa-phone" aria-hidden="true"></i>(41) 99693-9384</a></li>
+        <li><a href="mailto:contato@caambiocwb.com.br"><i class="fa-solid fa-envelope" aria-hidden="true"></i>contato@caambiocwb.com.br</a></li>
+      </ul>
+    </div>
+  </div>
+
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <img src="b60eac_d98e0f406926414d9eb49f7b5dfb37aa~mv2.avif" alt="CAAMBIOCWB - Loja automotiva" />
+      <a class="logo" href="index.html">
+        <img src="assets/caambiocwb-transmissao.avif" width="410" height="260" alt="" />
+        <span class="logo-text">
+          <span class="logo-name">CAAMBIOCWB</span>
+          <span class="logo-tag">Loja automotiva</span>
+        </span>
       </a>
-      <nav class="main-nav">
-        <a href="index.html" class="active">INÍCIO</a>
-        <a href="sobre.html">SOBRE NÓS</a>
-        <a href="contato.html">CONTATO</a>
-        <a href="loja.html">LOJA</a>
-        <a href="loja.html" class="cart" aria-label="Carrinho">
-          <i class="fa-solid fa-bag-shopping"></i><span class="cart-count">0</span>
+
+      <div class="header-actions">
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="index.html" data-nav="home">Início</a>
+          <a href="loja.html" data-nav="loja">Loja</a>
+          <a href="sobre.html" data-nav="sobre">Sobre nós</a>
+          <a href="contato.html" data-nav="contato">Contato</a>
+        </nav>
+        <a class="btn btn-green btn-sm" href="https://wa.me/5541996939384?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento%20de%20pe%C3%A7a%20para%20c%C3%A2mbio%20autom%C3%A1tico." target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Orçamento
         </a>
-      </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   </header>
 
-  <!-- HERO -->
-  <section id="inicio" class="hero">
-    <div class="container hero-grid">
-      <div class="hero-text">
-        <h1>CAAMBIOCWB sua loja<br>automotiva online</h1>
-        <p>
-          Bem-vindo à CAAMBIOCWB, a sua loja automotiva online especializada em
-          peças de reposição para transmissão automática. Aqui você encontrará
-          uma ampla variedade de peças, desde solenoides até câmbios completos,
-          para garantir o bom funcionamento do seu veículo.
-        </p>
-      </div>
-      <div class="hero-image">
-        <img src="b60eac_d98e0f406926414d9eb49f7b5dfb37aa~mv2.avif" alt="CAAMBIOCWB" />
-      </div>
-    </div>
-  </section>
+  <main id="conteudo">
 
-  <!-- GREEN STRIP -->
-  <section class="strip strip-green">
-    <div class="container strip-grid">
-      <div class="strip-card">
-        <h3>PEÇAS DE<br>REPOSIÇÃO</h3>
-        <p>Oferecemos uma ampla gama de peças de reposição para transmissão automática, garantindo que seu veículo receba as melhores soluções para manter a performance e a segurança.</p>
-      </div>
-      <div class="strip-card">
-        <h3>CONSULTORIA<br>ESPECIALIZADA</h3>
-        <p>Nossa equipe especializada está pronta para oferecer consultoria personalizada, ajudando você a encontrar as peças ideais para as necessidades do seu veículo.</p>
-      </div>
-      <div class="strip-card">
-        <h3>ENTREGA<br>RÁPIDA</h3>
-        <p>Com um eficiente sistema de entrega, garantimos que suas peças cheguem até você no menor tempo possível, para que seu veículo retorne à estrada sem demora.</p>
-      </div>
-    </div>
-  </section>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Transmissão automática</p>
+          <h1>CAAMBIOCWB sua loja automotiva online</h1>
+          <p class="lead">
+            Bem-vindo à CAAMBIOCWB, a sua loja automotiva online especializada em
+            peças de reposição para transmissão automática. Aqui você encontrará
+            uma ampla variedade de peças, desde solenoides até câmbios completos,
+            para garantir o bom funcionamento do seu veículo.
+          </p>
 
-  <!-- SOLUCAO -->
-  <section class="solution">
-    <div class="container solution-grid">
-      <div class="solution-text">
-        <h2>ENCONTRE A SOLUÇÃO PARA O<br>SEU VEÍCULO</h2>
-        <p>
-          Na CAAMBIOCWB, estamos comprometidos em fornecer a melhor experiência
-          para você e seu veículo. Faça uma cotação da sua transmissão e
-          descubra como podemos ajudar a manter seu veículo em perfeitas
-          condições.
-        </p>
-        <a class="btn btn-dark" href="contato.html">FAÇA SUA COTAÇÃO</a>
-      </div>
-      <div class="solution-banner">
-        <img src="LOGO%20CAMBIO.avif" alt="CAAMBIOCWB - Tem de tudo para seu câmbio" />
-      </div>
-    </div>
-  </section>
+          <div class="btn-row">
+            <a class="btn btn-dark" href="loja.html">Ver catálogo de peças</a>
+            <a class="btn btn-wa" href="https://wa.me/5541996939384?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento%20de%20pe%C3%A7a%20para%20c%C3%A2mbio%20autom%C3%A1tico." target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Falar no WhatsApp
+            </a>
+          </div>
 
-  <!-- WHY (cyan) -->
-  <section class="why">
+          <ul class="hero-facts">
+            <li><i class="fa-solid fa-store" aria-hidden="true"></i>Loja física em Curitiba</li>
+            <li><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>Peças novas, originais e revisadas</li>
+            <li><i class="fa-solid fa-comments" aria-hidden="true"></i>Orçamento direto no WhatsApp</li>
+          </ul>
+        </div>
+
+        <div class="figure-panel">
+          <img src="assets/caambiocwb-transmissao.avif" width="410" height="260"
+               alt="Transmissão automática em corte com a marca CAAMBIOCWB" fetchpriority="high" />
+        </div>
+      </div>
+    </section>
+
+    <section class="strip" aria-labelledby="diferenciais">
+      <div class="container">
+        <h2 id="diferenciais" class="sr-only">O que oferecemos</h2>
+        <div class="strip-grid">
+          <div class="strip-card">
+            <h2>Peças de reposição</h2>
+            <p>Oferecemos uma ampla gama de peças de reposição para transmissão automática, garantindo que seu veículo receba as melhores soluções para manter a performance e a segurança.</p>
+          </div>
+          <div class="strip-card">
+            <h2>Consultoria especializada</h2>
+            <p>Nossa equipe especializada está pronta para oferecer consultoria personalizada, ajudando você a encontrar as peças ideais para as necessidades do seu veículo.</p>
+          </div>
+          <div class="strip-card">
+            <h2>Entrega rápida</h2>
+            <p>Com um eficiente sistema de entrega, garantimos que suas peças cheguem até você no menor tempo possível, para que seu veículo retorne à estrada sem demora.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container solution-grid">
+        <div>
+          <p class="eyebrow">Cotação sem compromisso</p>
+          <h2>Encontre a solução para o seu veículo</h2>
+          <p>
+            Na CAAMBIOCWB, estamos comprometidos em fornecer a melhor experiência
+            para você e seu veículo. Faça uma cotação da sua transmissão e
+            descubra como podemos ajudar a manter seu veículo em perfeitas
+            condições.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-dark" href="contato.html">Faça sua cotação</a>
+            <a class="btn btn-ghost" href="loja.html">Ver transmissões atendidas <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="figure-panel figure-panel--sm">
+          <img src="assets/banner-tudo-para-seu-cambio.avif" width="312" height="210" loading="lazy"
+               alt="Temos tudo para o seu câmbio — CAAMBIOCWB" />
+        </div>
+      </div>
+    </section>
+
+    <section class="why section" aria-labelledby="porque">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <h2 id="porque">Por que escolher nossas peças de reposição?</h2>
+          <p>
+            Na CAAMBIOCWB, entendemos a importância de oferecer soluções confiáveis
+            para o seu veículo. Estamos dedicados a garantir que nossas peças
+            atendam aos mais altos padrões de qualidade e desempenho.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-headset" aria-hidden="true"></i></div>
+            <h3>Atendimento personalizado</h3>
+            <p>Estamos sempre disponíveis para fornecer suporte e orientação personalizada, garantindo que você receba as peças mais adequadas para as necessidades do seu veículo.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-tags" aria-hidden="true"></i></div>
+            <h3>Preço acessível</h3>
+            <p>Entendemos a importância de oferecer soluções acessíveis. Nossas peças de reposição são cuidadosamente selecionadas para oferecer um excelente custo-benefício, sem comprometer a qualidade.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></div>
+            <h3>Experiência técnica</h3>
+            <p>Nossa equipe é composta por profissionais altamente qualificados, prontos para fornecer orientação técnica e suporte especializado em todas as etapas da escolha e utilização das peças.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="parceiros">
+      <div class="container">
+        <h2 id="parceiros" class="rule-title"><span>Empresas parceiras</span></h2>
+        <div class="partners-grid">
+          <a class="partner" href="https://cambioautomaticodobrasil.com.br/" target="_blank" rel="noopener">
+            <img src="assets/parceiros/p1_Cambio_automatico_do_Brasil.avif" width="300" height="300" loading="lazy" alt="Câmbio Automático do Brasil" />
+          </a>
+          <a class="partner" href="https://cambioautomaticodasamericas.com/" target="_blank" rel="noopener">
+            <img src="assets/parceiros/p2_Cambio_automatico_das_Americas.avif" width="400" height="273" loading="lazy" alt="Câmbio Automático das Américas" />
+          </a>
+          <a class="partner" href="https://apsparts.com.br" target="_blank" rel="noopener">
+            <img src="assets/parceiros/p3_Aps_Parts.avif" width="170" height="170" loading="lazy" alt="APS Parts" />
+          </a>
+          <a class="partner" href="https://www.instagram.com/thetriabr/" target="_blank" rel="noopener">
+            <img src="assets/parceiros/p4_Thetria.avif" width="170" height="170" loading="lazy" alt="Thetria" />
+          </a>
+          <a class="partner" href="https://thoten.com.br/" target="_blank" rel="noopener">
+            <img src="assets/parceiros/p5_Thoten_Transmissao_Automatica.avif" width="305" height="266" loading="lazy" alt="Thoten Transmissão Automática" />
+          </a>
+          <a class="partner" href="https://www.orionimportadora.com.br/" target="_blank" rel="noopener">
+            <img src="assets/parceiros/p6_Orion.avif" width="170" height="170" loading="lazy" alt="Orion Importadora" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <section class="contact-strip" aria-label="Canais de atendimento">
     <div class="container">
-      <h2 class="why-title">POR QUE ESCOLHER NOSSAS PEÇAS<br>DE REPOSIÇÃO?</h2>
-      <p class="why-sub">
-        Na CAAMBIOCWB, entendemos a importância de oferecer soluções confiáveis
-        para o seu veículo. Estamos dedicados a garantir que nossas peças
-        atendam aos mais altos padrões de qualidade e desempenho.
-      </p>
-      <div class="why-grid">
-        <div class="why-card">
-          <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
-          <h4>ATENDIMENTO<br>PERSONALIZADO</h4>
-          <p>Estamos sempre disponíveis para fornecer suporte e orientação personalizada, garantindo que você receba as peças mais adequadas para as necessidades do seu veículo.</p>
+      <div class="contact-strip-item">
+        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+        <div>
+          <p class="strip-label">Nosso telefone</p>
+          <p><a href="tel:+5541996939384">(41) 99693-9384</a> · Gabriel Melniski</p>
         </div>
-        <div class="why-card">
-          <div class="why-icon"><i class="fa-solid fa-tags"></i></div>
-          <h4>PREÇO<br>ACESSÍVEL</h4>
-          <p>Entendemos a importância de oferecer soluções acessíveis. Nossas peças de reposição são cuidadosamente selecionadas para oferecer um excelente custo-benefício, sem comprometer a qualidade.</p>
+      </div>
+      <div class="contact-strip-item">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <div>
+          <p class="strip-label">Nosso e-mail</p>
+          <p><a href="mailto:contato@caambiocwb.com.br">contato@caambiocwb.com.br</a></p>
         </div>
-        <div class="why-card">
-          <div class="why-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-          <h4>EXPERIÊNCIA<br>TÉCNICA</h4>
-          <p>Nossa equipe é composta por profissionais altamente qualificados, prontos para fornecer orientação técnica e suporte especializado em todas as etapas da escolha e utilização das peças.</p>
+      </div>
+      <div class="contact-strip-item">
+        <i class="fa-regular fa-clock" aria-hidden="true"></i>
+        <div>
+          <p class="strip-label">Nossos horários</p>
+          <p>Segunda a sexta, das 08h30 às 18h00</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PARTNERS -->
-  <section class="partners">
-    <div class="container">
-      <h3 class="partners-title"><span>EMPRESAS PARCEIRAS</span></h3>
-      <div class="partners-grid">
-        <a class="partner" href="https://cambioautomaticodobrasil.com.br/" target="_blank" rel="noopener" title="Câmbio Automático do Brasil">
-          <img src="parceiros/p1_Cambio_automatico_do_Brasil.avif" alt="Câmbio Automático do Brasil" />
-        </a>
-        <a class="partner" href="https://cambioautomaticodasamericas.com/" target="_blank" rel="noopener" title="Câmbio Automático das Américas">
-          <img src="parceiros/p2_Cambio_automatico_das_Americas.avif" alt="Câmbio Automático das Américas" />
-        </a>
-        <a class="partner" href="https://apsparts.com.br" target="_blank" rel="noopener" title="APS Parts">
-          <img src="parceiros/p3_Aps_Parts.avif" alt="APS Parts" />
-        </a>
-        <a class="partner" href="https://www.instagram.com/thetriabr/" target="_blank" rel="noopener" title="Thetria">
-          <img src="parceiros/p4_Thetria.avif" alt="Thetria" />
-        </a>
-        <a class="partner" href="https://thoten.com.br/" target="_blank" rel="noopener" title="Thoten Transmissão Automática">
-          <img src="parceiros/p5_Thoten_Transmissao_Automatica.avif" alt="Thoten Transmissão Automática" />
-        </a>
-        <a class="partner" href="https://www.orionimportadora.com.br/" target="_blank" rel="noopener" title="Orion Importadora">
-          <img src="parceiros/p6_Orion.avif" alt="Orion" />
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- GREEN CONTACT STRIP -->
-  <section class="contact-strip">
-    <div class="container contact-strip-grid">
-      <div><h5>NOSSO TELEFONE</h5><span>(41) 99693-9384 | Gabriel Melniski</span></div>
-      <div><h5>NOSSO EMAIL</h5><span>contato@caambiocwb.com.br</span></div>
-      <div><h5>NOSSOS HORÁRIOS</h5><span>Seg a Sex • 08h30 às 18h00</span></div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <h6>VOLTE SEMPRE</h6>
-        <p>🚗⚙️ Somos uma loja especializada em transmissão automática, com tudo que você precisa para o seu câmbio! Entre em contato! 📞🔧</p>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">
+            <span class="logo-name">CAAMBIOCWB</span>
+            <span class="logo-tag">Loja automotiva</span>
+          </span>
+          <p>Somos uma loja especializada em transmissão automática, com tudo que você precisa para o seu câmbio.</p>
+          <p><a class="link" href="contato.html">Fale com um especialista</a></p>
+        </div>
+
+        <div>
+          <h2>Nossos serviços</h2>
+          <ul class="footer-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Venda de hardpeças</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Revisão de corpo de válvula</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Revisão completa da transmissão</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Navegação</h2>
+          <ul class="footer-list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="loja.html">Catálogo de peças</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Encontre-nos</h2>
+          <address class="footer-address">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Aleixo%20Skraba%2C%2010%20-%20Novo%20Mundo%2C%20Curitiba%20-%20PR%2C%2081050-480" target="_blank" rel="noopener">
+              R. Aleixo Skraba, 10 — Novo Mundo<br />Curitiba — PR, 81050-480
+            </a>
+            <a href="tel:+5541996939384">(41) 99693-9384</a>
+            <a href="mailto:contato@caambiocwb.com.br">contato@caambiocwb.com.br</a>
+            <span>Segunda a sexta, 08h30 às 18h00</span>
+          </address>
+        </div>
       </div>
-      <div>
-        <h6>NOSSOS SERVIÇOS</h6>
-        <p>
-          ✅ Venda de hardpeças ⚙️<br>
-          ✅ Revisão de corpo de válvula 🛠️<br>
-          ✅ Revisão completa da transmissão automática 🚗
-        </p>
-        <p>Ficou com dúvidas ou quer um orçamento?<br>📞 Chame a gente agora e garanta o melhor para o seu câmbio!</p>
-      </div>
-      <div>
-        <h6>ENCONTRE-NOS</h6>
-        <p>📍 R. Aleixo Skraba, 10 — Novo Mundo<br>Curitiba — PR, 81050-480</p>
-        <p>CNPJ: 30.005.760/0001-52<br>CAAMBIOCWB COMERCIO DE PECAS LTDA</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="socials">
-        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <span>CNPJ 30.005.760/0001-52 — CAAMBIOCWB Comercio de Pecas LTDA</span>
+          <span>© <span data-year>2026</span> CAAMBIOCWB. Todos os direitos reservados.</span>
+        </div>
+        <!-- Perfis sociais: quando tiver os links do Instagram/Facebook,
+             acrescente aqui no mesmo formato dos itens abaixo. -->
+        <div class="socials">
+          <a href="https://wa.me/5541996939384" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:contato@caambiocwb.com.br" aria-label="Enviar e-mail">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="tel:+5541996939384" aria-label="Ligar para a loja">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Aleixo%20Skraba%2C%2010%20-%20Novo%20Mundo%2C%20Curitiba%20-%20PR%2C%2081050-480" target="_blank" rel="noopener" aria-label="Ver no mapa">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
     </div>
   </footer>
 
+  <a class="wa-float" href="https://wa.me/5541996939384?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span>
+  </a>
+
+  <script src="site.js"></script>
 </body>
 </html>

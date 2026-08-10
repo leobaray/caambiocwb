@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /referencia/
+
+Sitemap: https://caambiocwb.com.br/sitemap.xml
