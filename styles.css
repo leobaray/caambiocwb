@@ -383,7 +383,12 @@ address.footer-address a:hover{color:var(--green)}
 
 /* botão flutuante de WhatsApp */
 .wa-float{
-  position:fixed;right:clamp(1rem,3vw,1.75rem);bottom:clamp(1rem,3vw,1.75rem);
+  /* --wa-lift e ajustado pelo site.js para o botao parar no fecho da
+     pagina; fica no bottom, e nao no transform, para nao concorrer com
+     a animacao de hover nem atrasar durante a rolagem */
+  position:fixed;
+  right:clamp(1rem,3vw,1.75rem);
+  bottom:calc(clamp(1rem,3vw,1.75rem) + var(--wa-lift, 0px));
   z-index:90;
   display:inline-flex;align-items:center;gap:.65rem;
   padding:.85rem 1.15rem;border-radius:var(--r-pill);

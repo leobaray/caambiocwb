@@ -177,6 +177,50 @@ function initYear() {
   for (var i = 0; i < nodes.length; i++) nodes[i].textContent = year;
 }
 
+/* O botão flutuante fica colado no canto enquanto há conteúdo, mas para
+   no fecho da página em vez de cobrir a faixa de contato e o rodapé —
+   que é justamente onde estão o telefone e o e-mail. Empurra pelo exato
+   tanto que o fecho já invadiu a tela, então ele parece pousar em cima. */
+function initFloatingWhatsApp() {
+  var botao = document.querySelector('.wa-float');
+  if (!botao) return;
+
+  var fecho = document.querySelector('.contact-strip') || document.querySelector('.site-footer');
+  if (!fecho) return;
+
+  var agendado = false;
+
+  function ajustar() {
+    agendado = false;
+    var invasao = window.innerHeight - fecho.getBoundingClientRect().top;
+    botao.style.setProperty('--wa-lift', (invasao > 0 ? Math.round(invasao) : 0) + 'px');
+  }
+
+  function pedirAjuste() {
+    if (agendado) return;
+    agendado = true;
+    window.requestAnimationFrame(ajustar);
+  }
+
+  window.addEventListener('scroll', pedirAjuste, { passive: true });
+  window.addEventListener('resize', pedirAjuste);
+
+  /* A altura da página ainda muda depois deste ponto: fontes carregam,
+     imagens entram, a loja monta a grade e o "ver mais" acrescenta
+     cards. Em página que não rola não há scroll para recalcular, então
+     acompanha o tamanho do documento. */
+  if (window.ResizeObserver) {
+    new ResizeObserver(pedirAjuste).observe(document.body);
+  } else {
+    window.addEventListener('load', pedirAjuste);
+  }
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(pedirAjuste);
+  }
+
+  ajustar();
+}
+
 /* Formulário de contato: não existe servidor, então em vez de fingir
    um envio o formulário monta a mensagem e entrega no canal que a
    loja realmente usa (WhatsApp), com e-mail como alternativa. */
@@ -244,5 +288,6 @@ document.addEventListener('DOMContentLoaded', function () {
   initStickyHeader();
   initBusinessStatus();
   initYear();
+  initFloatingWhatsApp();
   initContactForm();
 });
