@@ -9,6 +9,11 @@ fotos originais, ferramentas — e não lista diretório.
 
 Uso:
     python ferramentas/servidor.py [porta]     (padrão: 8000)
+
+Se for rodar por um agendador de tarefas do Windows: confira a prioridade
+da tarefa. O padrão é 7, que põe o processo em BelowNormal e faz o
+servidor levar 0,6 a 11 s para entregar as 24 imagens de uma página que
+uma instância comum entrega em 0,11 s. Prioridade 4 é o normal.
 """
 import mimetypes
 import os
