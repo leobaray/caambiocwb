@@ -87,6 +87,18 @@ visitante preferir. Nada é armazenado e nada é enviado sem o visitante
 confirmar. Se um dia houver servidor, o ponto de troca é a função
 `initContactForm()` em `site.js`.
 
+## Contraste
+
+`ferramentas/auditoria-contraste.js` mede o contraste de todo texto
+visível na página aberta. Cole no console do navegador (F12) e ele lista
+o que estiver abaixo do mínimo WCAG AA. Rode depois de mexer em cor, e
+lembre dos estados que só aparecem em situação específica: menu do
+celular aberto, loja sem resultado, e a página de contato fora do
+horário comercial.
+
+Os tokens de cor no topo do `styles.css` já têm a razão de contraste
+anotada — ao trocar um verde, confira que o novo valor mantém a conta.
+
 ## Domínio
 
 Os endereços canônicos, o `sitemap.xml`, o `robots.txt`, as tags Open Graph
