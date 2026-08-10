@@ -99,6 +99,34 @@ horário comercial.
 Os tokens de cor no topo do `styles.css` já têm a razão de contraste
 anotada — ao trocar um verde, confira que o novo valor mantém a conta.
 
+## Publicação nesta máquina (preview)
+
+O site roda em `127.0.0.1:8767` por `ferramentas/servidor.py` e sai para
+a internet pelo túnel cloudflared já existente (tunnel `roger`), em
+**https://caambiocwb.lbwma.com**.
+
+| peça | onde |
+| --- | --- |
+| servidor estático | `ferramentas/servidor.py` (porta 8767, só 127.0.0.1) |
+| wrapper da tarefa | `C:\Users\Leonardo\.cloudflared\caambiocwb-run.cmd` |
+| tarefa agendada | `CaambiocwbLBWMA` — SYSTEM, no boot, reinicia sozinha |
+| regra do túnel | `C:\Users\Leonardo\.cloudflared\config.yml` |
+| log | `C:\Users\Leonardo\.cloudflared\caambiocwb-app.log` (só erros) |
+
+O servidor não publica `.git/`, `fotos-originais/`, `referencia/` nem
+`ferramentas/`, e não lista diretório. Endereço inexistente cai no
+`404.html` do próprio site.
+
+Para rodar só localmente, sem túnel:
+
+```bash
+python ferramentas/servidor.py 8767
+```
+
+Este endereço é preview. As tags `canonical` de todas as páginas apontam
+para `caambiocwb.com.br`, então o buscador não trata o preview como
+conteúdo duplicado nem o indexa no lugar do domínio final.
+
 ## Domínio
 
 Os endereços canônicos, o `sitemap.xml`, o `robots.txt`, as tags Open Graph
