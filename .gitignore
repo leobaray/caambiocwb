@@ -5,3 +5,7 @@
 # Para versioná-las também, apague a linha abaixo.
 fotos-originais/
 .gstack/
+
+# Configuracao local do editor/agente, nao faz parte do site
+.claude/
+.gstack/

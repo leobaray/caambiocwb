@@ -112,12 +112,12 @@
       : 'Ainda não temos peça cadastrada em <strong>' + escapeHtml(state.category) + '</strong> aqui no site.';
 
     return '<div class="empty-state">' +
-      '<i class="fa-solid fa-box-open" aria-hidden="true"></i>' +
+      '<svg class="ico" aria-hidden="true"><use href="#i-box-open"></use></svg>' +
       '<h2>Não achamos essa peça no site</h2>' +
       '<p>' + motivo + ' O estoque da loja é maior do que o catálogo online — mande o modelo do câmbio que a gente confere pra você.</p>' +
       '<div class="btn-row" style="justify-content:center">' +
         '<a class="btn btn-wa" href="' + escapeHtml(buildWhatsAppUrl(whatsappMessage())) + '" target="_blank" rel="noopener">' +
-          '<i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Perguntar no WhatsApp</a>' +
+          '<svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Perguntar no WhatsApp</a>' +
         '<a class="btn btn-outline" href="loja.html">Ver todas as peças</a>' +
       '</div>' +
     '</div>';
@@ -137,7 +137,7 @@
       tags.push(
         '<span class="filter-tag">' + escapeHtml(state.category) +
           '<button type="button" data-clear="category" aria-label="Remover filtro de transmissão">' +
-            '<i class="fa-solid fa-xmark" aria-hidden="true"></i></button>' +
+            '<svg class="ico" aria-hidden="true"><use href="#i-xmark"></use></svg></button>' +
         '</span>'
       );
     }
@@ -145,7 +145,7 @@
       tags.push(
         '<span class="filter-tag">Busca: &ldquo;' + escapeHtml(state.query) + '&rdquo;' +
           '<button type="button" data-clear="query" aria-label="Limpar busca">' +
-            '<i class="fa-solid fa-xmark" aria-hidden="true"></i></button>' +
+            '<svg class="ico" aria-hidden="true"><use href="#i-xmark"></use></svg></button>' +
         '</span>'
       );
     }

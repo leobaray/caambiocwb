@@ -3000,7 +3000,7 @@ function productCardHtml(p) {
     '<div class="product-body">' +
       '<h2>' + escapeHtml(p.name) + '</h2>' +
       '<p class="product-cat-tag">' + escapeHtml(p.category) + '</p>' +
-      '<span class="product-cta">Ver detalhes <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>' +
+      '<span class="product-cta">Ver detalhes <svg class="ico" aria-hidden="true"><use href="#i-arrow-right"></use></svg></span>' +
     '</div>' +
   '</a>';
 }

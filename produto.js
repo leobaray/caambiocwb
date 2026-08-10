@@ -15,14 +15,14 @@
 
     container.innerHTML =
       '<div class="product-notfound">' +
-        '<i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>' +
+        '<svg class="ico" aria-hidden="true"><use href="#i-triangle-exclamation"></use></svg>' +
         '<h1>Não encontramos essa peça</h1>' +
         '<p>O link pode estar errado ou a peça saiu do catálogo online. ' +
         'Mesmo assim vale perguntar: o estoque da loja é maior do que o site.</p>' +
         '<div class="btn-row" style="justify-content:center">' +
           '<a class="btn btn-dark" href="loja.html">Voltar para o catálogo</a>' +
           '<a class="btn btn-wa" href="' + escapeHtml(buildWhatsAppUrl('Olá! Procuro uma peça que não achei no site.')) + '" target="_blank" rel="noopener">' +
-            '<i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Perguntar no WhatsApp</a>' +
+            '<svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Perguntar no WhatsApp</a>' +
         '</div>' +
       '</div>';
     return;
@@ -123,9 +123,9 @@
 
         '<div class="product-actions">' +
           '<a class="btn btn-wa" href="' + escapeHtml(waUrl) + '" target="_blank" rel="noopener">' +
-            '<i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Orçamento no WhatsApp</a>' +
+            '<svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Orçamento no WhatsApp</a>' +
           '<a class="btn btn-outline" href="tel:' + escapeHtml(SITE.phoneTel) + '">' +
-            '<i class="fa-solid fa-phone" aria-hidden="true"></i> ' + escapeHtml(SITE.phoneDisplay) + '</a>' +
+            '<svg class="ico" aria-hidden="true"><use href="#i-phone"></use></svg> ' + escapeHtml(SITE.phoneDisplay) + '</a>' +
         '</div>' +
       '</div>' +
     '</div>';

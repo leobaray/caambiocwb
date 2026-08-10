@@ -1,13 +1,14 @@
-"""Servidor estático do site, para publicar via túnel cloudflared.
+"""Servidor estático do site.
 
-Escuta só em 127.0.0.1 — quem fala com ele é o cloudflared, que roda na
-mesma máquina. Nada fica exposto na rede local.
+Serve as páginas para desenvolvimento local, e também dá conta de ficar
+atrás de um proxy ou túnel em produção. Escuta só em 127.0.0.1: nada é
+exposto na rede sem alguém colocar um proxy na frente.
+
+Não publica o que está na pasta mas não é o site — histórico do git,
+fotos originais, ferramentas — e não lista diretório.
 
 Uso:
-    python ferramentas/servidor.py [porta]
-
-Em produção nesta máquina quem chama é a tarefa agendada
-"CaambiocwbLBWMA", pelo wrapper C:\\Users\\Leonardo\\.cloudflared\\caambiocwb-run.cmd
+    python ferramentas/servidor.py [porta]     (padrão: 8000)
 """
 import mimetypes
 import os
@@ -18,7 +19,7 @@ from http import HTTPStatus
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PORTA = int(sys.argv[1]) if len(sys.argv) > 1 else 8767
+PORTA = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
 
 # Pastas que existem no repositório mas não fazem parte do site publicado:
 # histórico do git, os 216 MB de fotos originais, o material de origem do

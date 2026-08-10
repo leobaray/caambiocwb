@@ -1,142 +1,120 @@
-# CAAMBIOCWB — site institucional e catálogo
+# CAAMBIOCWB — site e catálogo de peças
 
-Site estático (HTML, CSS e JavaScript puro) da CAAMBIOCWB, loja de peças
-para transmissão automática em Curitiba — PR. Sem build, sem framework,
-sem dependência de servidor: é só publicar a pasta.
+Site da CAAMBIOCWB, loja de peças para transmissão automática em
+Curitiba — PR. HTML, CSS e JavaScript puro: sem framework, sem etapa de
+build, sem banco. Publicar é copiar a pasta para o servidor.
 
-São **347 peças em 40 transmissões, com 1.138 fotos**, importadas do site
-antigo em Wix.
+São **347 peças em 40 transmissões, com 1.138 fotos**.
 
-## Como rodar
+## Rodar na sua máquina
 
-Abrir o `index.html` direto no navegador funciona, mas a página do produto
-usa a URL (`produto.html?id=...`), então o ideal é subir um servidor local:
+A página do produto lê a peça pela URL (`produto.html?id=...`), então
+abrir o arquivo direto pelo Windows não funciona. Suba um servidor:
 
 ```bash
-python -m http.server 8000
-# depois abra http://localhost:8000
+python ferramentas/servidor.py
+# abra http://localhost:8000
 ```
 
 ## Estrutura
 
 ```
-index.html      página inicial (com vitrine de peças)
+index.html      página inicial
 loja.html       catálogo, filtro por transmissão e busca
-produto.html    página de uma peça com galeria (montada por produto.js)
-sobre.html      sobre a empresa e como funciona o atendimento
+produto.html    página da peça, com galeria (montada por produto.js)
+sobre.html      a empresa e como funciona o atendimento
 contato.html    formulário, dados de contato e mapa
-404.html        página de erro
+404.html        página de endereço inexistente
 
-styles.css      toda a folha de estilo (tokens no topo do arquivo)
-site.js         dados da empresa + comportamentos de todas as páginas
-products.js     catálogo de peças e consultas
+styles.css      toda a folha de estilo (as cores ficam no topo do arquivo)
+site.js         dados da empresa + comportamento comum a todas as páginas
+products.js     catálogo de peças e as consultas sobre ele
 home.js         vitrine da página inicial
-loja.js         lógica da tela de catálogo
-produto.js      lógica da página de peça
+loja.js         tela do catálogo
+produto.js      página da peça
 
-assets/produtos/<id>/    fotos que vão ao ar (AVIF 900px + capa de 400px)
-assets/parceiros/        logos das empresas parceiras
-fotos-originais/<id>/    originais em JPG vindos do site antigo (216 MB)
-referencia/              material de origem do site antigo
+assets/produtos/<id>/   fotos publicadas (AVIF)
+assets/parceiros/       logos das empresas parceiras
+ferramentas/            servidor local e auditoria de contraste
 ```
 
-## As fotos
+## Adicionar, editar ou remover uma peça
 
-`fotos-originais/` guarda as **1.138 fotos originais** baixadas do site em
-Wix, na resolução em que o dono publicou (900×1600 na maioria). Essa pasta
-está no `.gitignore` para não inchar o repositório — **faça backup dela em
-um HD ou na nuvem**, porque é a única cópia fora do Wix. Para versioná-la
-junto, apague a linha `fotos-originais/` do `.gitignore`.
+Tudo acontece no **`products.js`** — as instruções completas estão
+comentadas no topo do arquivo. Em resumo:
 
-`assets/produtos/` tem as versões que o site usa, geradas a partir dos
-originais:
+1. Copie um bloco `{ ... }` do array `PRODUCTS`, cole no fim e preencha.
+   O `id` precisa ser único e **não muda depois de publicado**: é ele que
+   forma o link da peça e o nome da pasta das fotos.
+2. Crie `assets/produtos/<id>/` e coloque as fotos numeradas: `01.avif`,
+   `02.avif`… com 900px no lado maior.
+3. A capa (a foto que aparece no card do catálogo) precisa de uma versão
+   quadrada de 400×400 chamada `01-thumb.avif`. Se a foto 01 não servir
+   como capa, aponte o campo `cover` para o número de outra — aí é o
+   `-thumb` dela que precisa existir.
+4. Ajuste `photos` para a quantidade de fotos.
+5. Acrescente a URL da peça no `sitemap.xml`.
 
-- `NN.avif` — 900px no lado maior, usada na página da peça e na galeria.
-- `NN-thumb.avif` — 400×400, recortada no **foco da peça** (não no centro
-  geométrico da foto) e usada no card da loja.
+Para remover, apague o bloco inteiro e a pasta de fotos.
 
-Algumas fotos do cadastro antigo são prints com uma tarja de texto do
-WhatsApp em cima. Quando isso acontece na foto 01, o campo `cover` do
-produto aponta para a primeira foto limpa, e é ela que vira a capa.
+## Trocar telefone, e-mail, endereço ou horário
 
-## Manutenção do dia a dia
+No **`site.js`**, no objeto `SITE` no começo do arquivo. O link do mapa e
+o indicador de "aberto agora" saem daí sozinhos.
 
-**Adicionar, editar ou remover uma peça** → `products.js`. As instruções
-estão comentadas no topo do arquivo. Ao criar uma peça nova, acrescente
-também a URL dela no `sitemap.xml`.
-
-**Fotos de uma peça nova** → crie `assets/produtos/<id>/`, coloque
-`01.avif`, `02.avif`… (900px) e a capa `01-thumb.avif` (400×400), e ajuste
-o campo `photos` para a quantidade.
-
-**Trocar telefone, e-mail, endereço ou horário** → `site.js`, no objeto
-`SITE`, no começo do arquivo. Os textos que aparecem no rodapé e na faixa
-verde estão nos HTMLs (o mesmo bloco se repete em todas as páginas — se
-mudar um, mude nos seis).
-
-**Perfis sociais** → hoje o rodapé só tem links que funcionam de verdade
-(WhatsApp, e-mail, telefone e mapa). Quando existirem os perfis do
-Instagram e do Facebook, é só acrescentá-los no bloco `.socials`, que está
-comentado nos arquivos HTML.
+Esses dados também aparecem escritos no rodapé e na faixa verde dos seis
+HTMLs. O bloco é idêntico nos seis arquivos — se mudar em um, mude nos
+outros cinco.
 
 ## Formulário de contato
 
-Não existe back-end. O formulário valida os campos, monta a mensagem e
-abre o WhatsApp com o texto pronto — ou o programa de e-mail, se o
-visitante preferir. Nada é armazenado e nada é enviado sem o visitante
-confirmar. Se um dia houver servidor, o ponto de troca é a função
-`initContactForm()` em `site.js`.
+Não existe servidor por trás. O formulário valida os campos, monta a
+mensagem e abre o WhatsApp com o texto pronto — ou o programa de e-mail,
+se a pessoa preferir. Nada é armazenado e nada sai sem ela confirmar.
+
+Se um dia houver back-end, o ponto de troca é a função
+`initContactForm()` no `site.js`.
+
+## Ícones e fontes
+
+Os ícones são SVG embutidos no próprio HTML (Font Awesome Free 6.5.2,
+CC BY 4.0). Os 21 em uso pesam 11 KB; a versão em fonte baixava 337 KB de
+CSS e webfonts a cada visita. Para trocar ou acrescentar um ícone, pegue
+o SVG em fontawesome.com, vire um `<symbol>` no bloco que fica logo
+depois do `<body>` e use com `<svg class="ico"><use href="#i-nome">`.
+
+As fontes (Lora nos títulos, Montserrat no texto) vêm do Google Fonts,
+só nos pesos usados.
 
 ## Contraste
 
 `ferramentas/auditoria-contraste.js` mede o contraste de todo texto
 visível na página aberta. Cole no console do navegador (F12) e ele lista
-o que estiver abaixo do mínimo WCAG AA. Rode depois de mexer em cor, e
-lembre dos estados que só aparecem em situação específica: menu do
-celular aberto, loja sem resultado, e a página de contato fora do
+o que estiver abaixo do mínimo WCAG AA. Vale rodar depois de mexer em
+cor, lembrando dos estados que só aparecem em situação específica: menu
+do celular aberto, catálogo sem resultado, e a página de contato fora do
 horário comercial.
 
-Os tokens de cor no topo do `styles.css` já têm a razão de contraste
-anotada — ao trocar um verde, confira que o novo valor mantém a conta.
+Os tokens de cor no topo do `styles.css` têm a razão de contraste
+anotada ao lado.
 
-## Publicação nesta máquina (preview)
+## As fotos originais
 
-O site roda em `127.0.0.1:8767` por `ferramentas/servidor.py` e sai para
-a internet pelo túnel cloudflared já existente (tunnel `roger`), em
-**https://caambiocwb.lbwma.com**.
-
-| peça | onde |
-| --- | --- |
-| servidor estático | `ferramentas/servidor.py` (porta 8767, só 127.0.0.1) |
-| wrapper da tarefa | `C:\Users\Leonardo\.cloudflared\caambiocwb-run.cmd` |
-| tarefa agendada | `CaambiocwbLBWMA` — SYSTEM, no boot, reinicia sozinha |
-| regra do túnel | `C:\Users\Leonardo\.cloudflared\config.yml` |
-| log | `C:\Users\Leonardo\.cloudflared\caambiocwb-app.log` (só erros) |
-
-O servidor não publica `.git/`, `fotos-originais/`, `referencia/` nem
-`ferramentas/`, e não lista diretório. Endereço inexistente cai no
-`404.html` do próprio site.
-
-Para rodar só localmente, sem túnel:
-
-```bash
-python ferramentas/servidor.py 8767
-```
-
-Este endereço é preview. As tags `canonical` de todas as páginas apontam
-para `caambiocwb.com.br`, então o buscador não trata o preview como
-conteúdo duplicado nem o indexa no lugar do domínio final.
+As fotos publicadas em `assets/produtos/` são versões reduzidas. Os
+originais em alta ficam em `fotos-originais/`, fora do controle de versão
+por causa do tamanho (216 MB). Se essa pasta veio junto, guarde uma
+cópia: é o arquivo bruto das imagens da loja.
 
 ## Domínio
 
-Os endereços canônicos, o `sitemap.xml`, o `robots.txt`, as tags Open Graph
-e `SITE.origin` (em `site.js`) apontam para `https://caambiocwb.com.br`.
-Se o site for publicado em outro domínio, troque nesses lugares.
+Os endereços canônicos, o `sitemap.xml`, o `robots.txt`, as tags Open
+Graph e `SITE.origin` (no `site.js`) apontam para
+`https://caambiocwb.com.br`. Publicando em outro domínio, troque nesses
+cinco lugares.
 
-## Dependências externas
+## O que o site usa de fora
 
-- Google Fonts — Lora (títulos) e Montserrat (texto)
-- Font Awesome 6.5.2 via cdnjs — ícones
-- Google Maps embed na página de contato
+- Google Fonts — Lora e Montserrat
+- Google Maps, no mapa da página de contato
 
-Nada disso exige conta ou chave de API.
+Nenhum dos dois exige conta ou chave de API.
