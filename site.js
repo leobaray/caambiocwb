@@ -16,23 +16,27 @@ var SITE = {
   whatsapp: '5541996939384',
   email: 'contato@caambiocwb.com.br',
   address: {
-    street: 'R. Aleixo Skraba, 10',
-    district: 'Novo Mundo',
+    street: 'R. Francisco Derosso, 6460 - 3',
+    district: 'Alto Boqueirão',
     city: 'Curitiba',
     state: 'PR',
-    zip: '81050-480'
+    zip: ''
   },
   /* Segunda a sexta, 08h30 às 18h00 (horário de Curitiba) */
   hours: { days: [1, 2, 3, 4, 5], opens: 8 * 60 + 30, closes: 18 * 60 },
   timezone: 'America/Sao_Paulo'
 };
 
-SITE.mapsUrl =
-  'https://www.google.com/maps/search/?api=1&query=' +
-  encodeURIComponent(
-    SITE.address.street + ' - ' + SITE.address.district + ', ' +
-    SITE.address.city + ' - ' + SITE.address.state + ', ' + SITE.address.zip
-  );
+/* O complemento (o "- 3") atrapalha a geolocalizacao do Google, entao a
+   busca do mapa usa so a rua e o numero. O CEP entra se um dia existir. */
+SITE.mapsUrl = (function () {
+  var rua = SITE.address.street.replace(/\s*-\s*\d+\s*$/, '');
+  var partes = [rua, SITE.address.district,
+                SITE.address.city + ' - ' + SITE.address.state];
+  if (SITE.address.zip) partes.push(SITE.address.zip);
+  return 'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent(partes.join(', '));
+})();
 
 /* ---------- utilitários ---------- */
 
