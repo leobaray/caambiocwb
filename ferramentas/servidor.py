@@ -12,6 +12,7 @@ Uso:
 """
 import mimetypes
 import os
+import socket
 import posixpath
 import sys
 import urllib.parse
@@ -39,7 +40,18 @@ CACHE_LONGO = ('/assets/',)
 class Handler(SimpleHTTPRequestHandler):
     server_version = 'caambiocwb'
     sys_version = ''
+
+    # HTTP/1.1 mantém a conexão aberta, o que é bom para uma página que
+    # pede dezenas de imagens. Mas sem timeout a thread daquela conexão
+    # fica presa esperando um próximo pedido que talvez nunca venha, e
+    # elas se acumulam: depois de algumas horas de pé o servidor passava
+    # de 6 ms para 200 ms de mediana, com picos de segundos.
     protocol_version = 'HTTP/1.1'
+    timeout = 5
+
+    # sem isso o TCP segura pacotes pequenos esperando encher o buffer,
+    # o que atrasa cabeçalho e arquivos curtos
+    disable_nagle_algorithm = True
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=RAIZ, **kwargs)
@@ -100,10 +112,31 @@ class Handler(SimpleHTTPRequestHandler):
         sys.stdout.write('%s %s\n' % (self.log_date_time_string(), formato % args))
         sys.stdout.flush()
 
+    def log_error(self, formato, *args):
+        """Conexão ociosa fechando no timeout é o funcionamento normal do
+        keep-alive, não erro — sem isso o log enche de 'Request timed out'."""
+        mensagem = formato % args
+        if 'timed out' in mensagem or 'Connection reset' in mensagem:
+            return
+        self.log_message(formato, *args)
+
+    def handle_one_request(self):
+        try:
+            super().handle_one_request()
+        except (TimeoutError, socket.timeout,
+                ConnectionResetError, ConnectionAbortedError, BrokenPipeError):
+            self.close_connection = True
+
+
+class Servidor(ThreadingHTTPServer):
+    daemon_threads = True
+    # a fila do accept: sem isso o padrão é 5 e uma página que dispara
+    # vinte imagens de uma vez começa a levar recusa
+    request_queue_size = 64
+
 
 if __name__ == '__main__':
-    servidor = ThreadingHTTPServer(('127.0.0.1', PORTA), Handler)
-    servidor.daemon_threads = True
+    servidor = Servidor(('127.0.0.1', PORTA), Handler)
     print('servindo %s em http://127.0.0.1:%d' % (RAIZ, PORTA), flush=True)
     try:
         servidor.serve_forever()

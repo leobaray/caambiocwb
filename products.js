@@ -2989,12 +2989,18 @@ function buildCategoryUrl(category) {
   return 'loja.html?transmissao=' + encodeURIComponent(category);
 }
 
-/* Card usado na loja e na lista de peças relacionadas. */
-function productCardHtml(p) {
+/* Card usado na loja e na lista de peças relacionadas.
+   Recebe o índice porque .map() já passa: as primeiras da grade estão
+   acima da dobra e carregam de imediato; deixá-las em lazy adia o
+   pedido para depois do layout e a página aparece vazia por um tempo. */
+function productCardHtml(p, indice) {
+  var acimaDaDobra = (indice || 0) < 6;
   return '<a class="product" href="' + escapeHtml(buildProductUrl(p.id)) + '">' +
     '<div class="thumb">' +
       (p.condition ? '<span class="badge badge--original">' + escapeHtml(p.condition) + '</span>' : '') +
-      '<img src="' + escapeHtml(productThumb(p)) + '" width="400" height="400" loading="lazy" ' +
+      '<img src="' + escapeHtml(productThumb(p)) + '" width="400" height="400" decoding="async" ' +
+        'loading="' + (acimaDaDobra ? 'eager' : 'lazy') + '" ' +
+        (acimaDaDobra ? 'fetchpriority="high" ' : '') +
         'alt="' + escapeHtml(p.name + ' para câmbio ' + p.category) + '" />' +
     '</div>' +
     '<div class="product-body">' +
