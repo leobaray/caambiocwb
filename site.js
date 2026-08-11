@@ -128,6 +128,48 @@ function initCurrentNav() {
   if (link) link.setAttribute('aria-current', 'page');
 }
 
+/* Clicar no link da página em que já se está não deve recarregar nada:
+   o navegador refaz a requisição, a tela pisca e a pessoa volta para o
+   mesmo lugar. Aqui o clique só sobe a página.
+
+   Exceção: se a URL atual tem filtro (/loja/?transmissao=...), clicar em
+   "Loja" leva para /loja/ limpo — aí é navegação de verdade. */
+function initLinkDaPaginaAtual() {
+  document.addEventListener('click', function (e) {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+
+    var link = e.target.closest('a[href]');
+    if (!link || link.target === '_blank' || link.hasAttribute('download')) return;
+
+    var destino;
+    try {
+      destino = new URL(link.getAttribute('href'), location.href);
+    } catch (erro) {
+      return;
+    }
+    if (destino.origin !== location.origin) return;
+    if (destino.pathname !== location.pathname) return;
+    if (destino.search !== location.search) return;
+    if (destino.hash) return;
+
+    e.preventDefault();
+
+    var toggle = document.querySelector('.nav-toggle');
+    if (document.body.classList.contains('nav-open')) {
+      document.body.classList.remove('nav-open');
+      if (toggle) {
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Abrir menu');
+      }
+    }
+
+    if (window.scrollY > 0) {
+      var suave = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: suave ? 'smooth' : 'auto' });
+    }
+  });
+}
+
 function initMobileNav() {
   var toggle = document.querySelector('.nav-toggle');
   var nav = document.getElementById('main-nav');
@@ -288,6 +330,7 @@ function initContactForm() {
 
 document.addEventListener('DOMContentLoaded', function () {
   initCurrentNav();
+  initLinkDaPaginaAtual();
   initMobileNav();
   initStickyHeader();
   initBusinessStatus();
