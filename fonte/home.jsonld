@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@type": "AutoPartsStore",
+    "name": "CAAMBIOCWB",
+    "legalName": "CAAMBIOCWB Comercio de Pecas LTDA",
+    "description": "Loja especializada em peças de reposição para transmissão automática.",
+    "url": "https://caambiocwb.com.br/",
+    "image": "https://caambiocwb.com.br/assets/og-caambiocwb.jpg",
+    "telephone": "+5541996939384",
+    "email": "contato@caambiocwb.com.br",
+    "taxID": "30.005.760/0001-52",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Francisco Derosso, 6460 - 3 - Alto Boqueirão",
+      "addressLocality": "Curitiba",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:30",
+      "closes": "18:00"
+    }]
+  }

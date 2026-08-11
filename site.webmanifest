@@ -1,0 +1,22 @@
+{
+  "name": "CAAMBIOCWB — Peças para transmissão automática",
+  "short_name": "CAAMBIOCWB",
+  "description": "Catálogo de peças para transmissão automática. Curitiba — PR.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#ffffff",
+  "theme_color": "#0c0c0c",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

@@ -40,7 +40,7 @@
     if (category && category !== 'all') params.set('transmissao', category);
     if (query) params.set('q', query);
     var qs = params.toString();
-    return 'loja.html' + (qs ? '?' + qs : '');
+    return '/loja/' + (qs ? '?' + qs : '');
   }
 
   function pushState(replace) {
@@ -118,7 +118,7 @@
       '<div class="btn-row" style="justify-content:center">' +
         '<a class="btn btn-wa" href="' + escapeHtml(buildWhatsAppUrl(whatsappMessage())) + '" target="_blank" rel="noopener">' +
           '<svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Perguntar no WhatsApp</a>' +
-        '<a class="btn btn-outline" href="loja.html">Ver todas as peças</a>' +
+        '<a class="btn btn-outline" href="/loja/">Ver todas as peças</a>' +
       '</div>' +
     '</div>';
   }

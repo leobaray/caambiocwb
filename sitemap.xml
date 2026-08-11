@@ -1,2109 +1,3498 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://caambiocwb.com.br/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/loja.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/loja/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/sobre.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/sobre/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/contato.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/contato/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-virtus</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-virtus/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-virtus/01.avif</image:loc>
+      <image:title>Bomba Óleo - Virtus — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carcaca-da-embreagem-k2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carcaca-da-embreagem-k2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carcaca-da-embreagem-k2/01.avif</image:loc>
+      <image:title>Carcaça da Embreagem K2 — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carcaca-de-freio-b1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carcaca-de-freio-b1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carcaca-de-freio-b1/01.avif</image:loc>
+      <image:title>Carcaça de Freio B1 — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carregador-planetario-dianteiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carregador-planetario-dianteiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carregador-planetario-dianteiro/02.avif</image:loc>
+      <image:title>Carregador Planetário Dianteiro — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-da-carcaca-da-embreagem-k3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-da-carcaca-da-embreagem-k3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-da-carcaca-da-embreagem-k3/01.avif</image:loc>
+      <image:title>Conjunto da Carcaça da Embreagem K3 — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-da-carcaca-embreagem-k1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-da-carcaca-embreagem-k1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-da-carcaca-embreagem-k1/01.avif</image:loc>
+      <image:title>Conjunto da Carcaça Embreagem K1 — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-de-eixo-de-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-de-eixo-de-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-de-eixo-de-entrada/01.avif</image:loc>
+      <image:title>Conjunto de Eixo de Entrada — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-de-mola</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-de-mola/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-de-mola/01.avif</image:loc>
+      <image:title>Conjunto de Mola — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-5/02.avif</image:loc>
+      <image:title>Conjunto Diferencial — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-do-suporte-central</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-do-suporte-central/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-do-suporte-central/01.avif</image:loc>
+      <image:title>Conjunto do Suporte Central — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-5/01.avif</image:loc>
+      <image:title>Conjunto Planetário — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-2/01.avif</image:loc>
+      <image:title>Corpo de Válvula — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-com-start</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-com-start/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-com-start/01.avif</image:loc>
+      <image:title>Corpo Válvula (com Start) — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-sem-start</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-sem-start/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-sem-start/01.avif</image:loc>
+      <image:title>Corpo Válvula (sem Start) — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cuboo-acionamento-da-carcaca-embreagem-k3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cuboo-acionamento-da-carcaca-embreagem-k3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cuboo-acionamento-da-carcaca-embreagem-k3/01.avif</image:loc>
+      <image:title>Cubo Acionamento da Carcaça Embreagem K3 — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=defletor-de-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/defletor-de-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/defletor-de-oleo/01.avif</image:loc>
+      <image:title>Defletor de Óleo — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-traseira</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-traseira/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-traseira/01.avif</image:loc>
+      <image:title>Planetária Traseira — 09G / AQ160 / AQ250 (6 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-5/01.avif</image:loc>
+      <image:title>Corpo Válvula — 4EAT</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-4f27e</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-4f27e/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-4f27e/01.avif</image:loc>
+      <image:title>Bomba Óleo - 4F27E — 4F27E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-1/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — 4F27E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-8</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-8/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-8/01.avif</image:loc>
+      <image:title>Bomba Óleo — 4L60E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=anelar-de-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/anelar-de-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/anelar-de-entrada/03.avif</image:loc>
+      <image:title>Anelar de Entrada — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carregador-de-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carregador-de-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carregador-de-entrada/01.avif</image:loc>
+      <image:title>Carregador de Entrada — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carregador-de-reacao</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carregador-de-reacao/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carregador-de-reacao/01.avif</image:loc>
+      <image:title>Carregador de Reação — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-embreagem-frente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-embreagem-frente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-embreagem-frente/03.avif</image:loc>
+      <image:title>Conjunto Embreagem Frente — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carte-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carte-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carte-1/01.avif</image:loc>
+      <image:title>Cárter — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-engrenagem-re</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-engrenagem-re/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-engrenagem-re/01.avif</image:loc>
+      <image:title>Discos Engrenagem Ré — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-2/01.avif</image:loc>
+      <image:title>Eixo — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-solar-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-solar-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-solar-entrada/02.avif</image:loc>
+      <image:title>Eixo Solar Entrada — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-re-roda-livre</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-re-roda-livre/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-re-roda-livre/02.avif</image:loc>
+      <image:title>Engrenagem Ré Roda Livre — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-solar-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-solar-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-solar-1/01.avif</image:loc>
+      <image:title>Engrenagem Solar — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=servo-2-4-marcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/servo-2-4-marcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/servo-2-4-marcha/01.avif</image:loc>
+      <image:title>Servo 2/4 Marcha — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=servo-baixo-e-re</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/servo-baixo-e-re/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/servo-baixo-e-re/01.avif</image:loc>
+      <image:title>Servo Baixo e Ré — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=solar</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/solar/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/solar/01.avif</image:loc>
+      <image:title>Solar — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-engrenagem-movida</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-engrenagem-movida/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-engrenagem-movida/01.avif</image:loc>
+      <image:title>Suporte Engrenagem Movida — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=valvula-controle-nivel</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/valvula-controle-nivel/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/valvula-controle-nivel/01.avif</image:loc>
+      <image:title>Válvula Controle Nível — 4T40 - CAPTIVA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-9</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-9/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-9/02.avif</image:loc>
+      <image:title>Bomba Óleo — 6F35 (6 SP F/AWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=capa-seca</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/capa-seca/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/capa-seca/02.avif</image:loc>
+      <image:title>Capa Seca — 6F35 (6 SP F/AWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carter-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carter-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carter-2/02.avif</image:loc>
+      <image:title>Cárter — 6F35 (6 SP F/AWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-estacionamento</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-estacionamento/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-estacionamento/01.avif</image:loc>
+      <image:title>Engrenagem Estacionamento — 6F35 (6 SP F/AWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-12</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-12/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-12/01.avif</image:loc>
+      <image:title>Bomba Óleo — 6HP26</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-6/01.avif</image:loc>
+      <image:title>Corpo Válvula — 6HP26</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-central</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-central/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-central/01.avif</image:loc>
+      <image:title>Tambor Central — 6HP26</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-embreagem</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-embreagem/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-embreagem/01.avif</image:loc>
+      <image:title>Tambor Embreagem — 6HP26</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-13</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-13/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-13/01.avif</image:loc>
+      <image:title>Bomba Óleo — 6HP28</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=capa-shell-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/capa-shell-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/capa-shell-1/01.avif</image:loc>
+      <image:title>Capa Shell — 6HP28</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-12</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-12/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-12/01.avif</image:loc>
+      <image:title>Corpo Válvula — 6HP28</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carcaca-tambor-embreagem-direta</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carcaca-tambor-embreagem-direta/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carcaca-tambor-embreagem-direta/01.avif</image:loc>
+      <image:title>Carcaça Tambor Embreagem Direta — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cubo-embreagem-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cubo-embreagem-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cubo-embreagem-1/01.avif</image:loc>
+      <image:title>Cubo Embreagem — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-overdrive</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-overdrive/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-overdrive/01.avif</image:loc>
+      <image:title>Eixo Overdrive — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-saida</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-saida/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-saida/01.avif</image:loc>
+      <image:title>Eixo Saída — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=i-ntermediario-baixo-reserso</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/i-ntermediario-baixo-reserso/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/i-ntermediario-baixo-reserso/01.avif</image:loc>
+      <image:title>I Intermediário Baixo Reverso — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetario-traseira</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetario-traseira/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetario-traseira/01.avif</image:loc>
+      <image:title>Planetário Traseira — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-selenoide-com-parafuso</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-selenoide-com-parafuso/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-selenoide-com-parafuso/01.avif</image:loc>
+      <image:title>Suporte Solenoide com Parafuso — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=valvula-manual</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/valvula-manual/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/valvula-manual/01.avif</image:loc>
+      <image:title>Válvula Manual — 6R80</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-bmw</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-bmw/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-bmw/01.avif</image:loc>
+      <image:title>Corpo Válvula - BMW — 8HP45 (8 SP R/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carcaca-da-bomba</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carcaca-da-bomba/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carcaca-da-bomba/01.avif</image:loc>
+      <image:title>Carcaça da Bomba — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-6/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-7/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-3/01.avif</image:loc>
+      <image:title>Corpo de Válvula — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cubo-embreagem</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cubo-embreagem/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cubo-embreagem/01.avif</image:loc>
+      <image:title>Cubo Embreagem — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=dog-f</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/dog-f/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/dog-f/01.avif</image:loc>
+      <image:title>DOG F — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-de-entrada-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-de-entrada-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-de-entrada-1/03.avif</image:loc>
+      <image:title>Eixo de Entrada — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-solar</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-solar/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-solar/01.avif</image:loc>
+      <image:title>Embreagem Solar — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator/01.avif</image:loc>
+      <image:title>Estator — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=mola-belleville</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/mola-belleville/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/mola-belleville/01.avif</image:loc>
+      <image:title>Mola Belleville — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=pistao-embreagem</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/pistao-embreagem/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/pistao-embreagem/01.avif</image:loc>
+      <image:title>Pistão Embreagem — 9HP48 (9 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-7/01.avif</image:loc>
+      <image:title>Bomba de Óleo — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-7/02.avif</image:loc>
+      <image:title>Bomba Óleo — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-2/05.avif</image:loc>
+      <image:title>Conjunto Diferencial — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetaria</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetaria/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetaria/02.avif</image:loc>
+      <image:title>Conjunto Planetária — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-7/02.avif</image:loc>
+      <image:title>Conjunto Planetário — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-9</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-9/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-9/01.avif</image:loc>
+      <image:title>Corpo de Válvula — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-7/01.avif</image:loc>
+      <image:title>Corpo Válvula — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cuboembreagem-reduzida</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cuboembreagem-reduzida/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cuboembreagem-reduzida/01.avif</image:loc>
+      <image:title>Cubo Embreagem Reduzida — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cubo-sobremarcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cubo-sobremarcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cubo-sobremarcha/04.avif</image:loc>
+      <image:title>Cubo Sobremarcha — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cubo-sobremarcha-reduzida</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cubo-sobremarcha-reduzida/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cubo-sobremarcha-reduzida/01.avif</image:loc>
+      <image:title>Cubo Sobremarcha Reduzida — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cubo-submarcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cubo-submarcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cubo-submarcha/03.avif</image:loc>
+      <image:title>Cubo Submarcha — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-4/01.avif</image:loc>
+      <image:title>Discos — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-reduzida</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-reduzida/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-reduzida/01.avif</image:loc>
+      <image:title>Embreagem Reduzida — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-re-sobremarcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-re-sobremarcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-re-sobremarcha/03.avif</image:loc>
+      <image:title>Embreagem Ré Sobremarcha — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-re-sobremarcha-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-re-sobremarcha-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-re-sobremarcha-1/02.avif</image:loc>
+      <image:title>Embreagem Ré Submarcha — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-da-reduzida-c-eixo-admissao</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-da-reduzida-c-eixo-admissao/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-da-reduzida-c-eixo-admissao/02.avif</image:loc>
+      <image:title>Tambor Embreagem da Reduzida c/ Eixo Admissão — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-4/01.avif</image:loc>
+      <image:title>Tampa Traseira — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-10</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-10/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-10/01.avif</image:loc>
+      <image:title>Tampa Traseira — A4CF1/2 - I30 (2.0)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo/01.avif</image:loc>
+      <image:title>Bomba de Óleo — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-a6gf1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-a6gf1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-a6gf1/01.avif</image:loc>
+      <image:title>Bomba Óleo - A6GF1 — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora-3/01.avif</image:loc>
+      <image:title>Chave Seletora — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote/01.avif</image:loc>
+      <image:title>Chicote — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote-corpo-de-valvula</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote-corpo-de-valvula/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote-corpo-de-valvula/01.avif</image:loc>
+      <image:title>Chicote Corpo de Válvula — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cubo-sub-acionamento</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cubo-sub-acionamento/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cubo-sub-acionamento/02.avif</image:loc>
+      <image:title>Conjunto Cubo Sub Acionamento — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-de-disco-overdrive</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-de-disco-overdrive/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-de-disco-overdrive/01.avif</image:loc>
+      <image:title>Conjunto de Disco Overdrive — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-4/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-traseiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-traseiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-traseiro/01.avif</image:loc>
+      <image:title>Conjunto Diferencial Traseiro — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-6/02.avif</image:loc>
+      <image:title>Conjunto Planetário — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-hb20</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-hb20/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-hb20/01.avif</image:loc>
+      <image:title>Conjunto Planetário - HB20 — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula/01.avif</image:loc>
+      <image:title>Corpo de Válvula — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpode-valvula</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpode-valvula/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpode-valvula/01.avif</image:loc>
+      <image:title>Corpo de Válvula — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=guia-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/guia-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/guia-oleo/01.avif</image:loc>
+      <image:title>Guia Óleo — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=pistao-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/pistao-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/pistao-2/01.avif</image:loc>
+      <image:title>Pistão — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=pistao-freio</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/pistao-freio/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/pistao-freio/01.avif</image:loc>
+      <image:title>Pistão Freio — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-central</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-central/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-central/01.avif</image:loc>
+      <image:title>Suporte Central — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-e-prato</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-e-prato/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-e-prato/01.avif</image:loc>
+      <image:title>Suporte e Prato — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-3-5-e-re</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-3-5-e-re/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-3-5-e-re/01.avif</image:loc>
+      <image:title>Tambor 3/5 e Ré — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-overdrive-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-overdrive-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-overdrive-1/02.avif</image:loc>
+      <image:title>Tambor Overdrive — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-3/01.avif</image:loc>
+      <image:title>Tampa Traseira — A6GF1 / A6GF1-2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-4/01.avif</image:loc>
+      <image:title>Bomba de Óleo — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote-2/01.avif</image:loc>
+      <image:title>Chicote — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cubo-freio</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cubo-freio/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cubo-freio/01.avif</image:loc>
+      <image:title>Conjunto Cubo Freio — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-8</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-8/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-8/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-do-cubo-embreagem-3-5-re</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-do-cubo-embreagem-3-5-re/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-do-cubo-embreagem-3-5-re/01.avif</image:loc>
+      <image:title>Conjunto do Cubo Embreagem 3/5 Ré — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-engrenagem-tranferencial</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-engrenagem-tranferencial/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-engrenagem-tranferencial/01.avif</image:loc>
+      <image:title>Conjunto Engrenagem Transferencial — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-7/01.avif</image:loc>
+      <image:title>Corpo de Válvula — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-3-5-e-re</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-3-5-e-re/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-3-5-e-re/01.avif</image:loc>
+      <image:title>Embreagem 3/5 e Ré — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-overdrive</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-overdrive/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-overdrive/01.avif</image:loc>
+      <image:title>Embreagem Overdrive — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=guia-de-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/guia-de-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/guia-de-oleo/02.avif</image:loc>
+      <image:title>Guia de Óleo — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=pistao-mola</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/pistao-mola/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/pistao-mola/01.avif</image:loc>
+      <image:title>Pistão Mola — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-traseira-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-traseira-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-traseira-1/01.avif</image:loc>
+      <image:title>Planetária Traseira — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=seletora</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/seletora/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/seletora/01.avif</image:loc>
+      <image:title>Seletora — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-central-pistao</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-central-pistao/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-central-pistao/01.avif</image:loc>
+      <image:title>Suporte Central Pistão — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-7/01.avif</image:loc>
+      <image:title>Tampa Traseira — A6MF1 - IX35</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-6/01.avif</image:loc>
+      <image:title>Bomba de Óleo — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=capa-shel</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/capa-shel/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/capa-shel/01.avif</image:loc>
+      <image:title>Capa Shell — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cilindro-da-embreagem</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cilindro-da-embreagem/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cilindro-da-embreagem/01.avif</image:loc>
+      <image:title>Cilindro da Embreagem — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carte-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carte-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carte-2/01.avif</image:loc>
+      <image:title>Cárter — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-3/01.avif</image:loc>
+      <image:title>Discos — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-de-entreda</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-de-entreda/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-de-entreda/02.avif</image:loc>
+      <image:title>Eixo de Entrada — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=mola-retorno</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/mola-retorno/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/mola-retorno/01.avif</image:loc>
+      <image:title>Mola Retorno — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-9</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-9/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-9/01.avif</image:loc>
+      <image:title>Tampa Traseira — AL4 (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-1/01.avif</image:loc>
+      <image:title>Bomba Óleo — AW5040LE (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-8</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-8/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-8/01.avif</image:loc>
+      <image:title>Corpo Válvula — AW5040LE (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo/01.avif</image:loc>
+      <image:title>Bomba Óleo — AW5550SN / AW5551SN (5 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora-2/02.avif</image:loc>
+      <image:title>Chave Seletora — AW5550SN / AW5551SN (5 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo/01.avif</image:loc>
+      <image:title>Eixo — AW5550SN / AW5551SN (5 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor/01.avif</image:loc>
+      <image:title>Tambor — AW5550SN / AW5551SN (5 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-1/02.avif</image:loc>
+      <image:title>Tampa Traseira — AW5550SN / AW5551SN (5 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=catraca</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/catraca/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/catraca/01.avif</image:loc>
+      <image:title>Catraca — CAMBIO 6T30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=catraca-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/catraca-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/catraca-1/02.avif</image:loc>
+      <image:title>Catraca — CAMBIO 6T30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=compartimento-embreagem-baixa-re-1-2-3-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/compartimento-embreagem-baixa-re-1-2-3-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/compartimento-embreagem-baixa-re-1-2-3-4/01.avif</image:loc>
+      <image:title>Compartimento Embreagem Baixa Ré/1/2/3/4 — CAMBIO 6T30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-carcaca-6t30</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-carcaca-6t30/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-carcaca-6t30/01.avif</image:loc>
+      <image:title>Conjunto Carcaça - 6T30 — CAMBIO 6T30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-embreagem-re-3-e-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-embreagem-re-3-e-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-embreagem-re-3-e-5/03.avif</image:loc>
+      <image:title>Conjunto Embreagem Ré 3º e 5º — CAMBIO 6T30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-3/04.avif</image:loc>
+      <image:title>Conjunto Planetário — CAMBIO 6T30</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bocal-de-lubrificacao-do-acionamento</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bocal-de-lubrificacao-do-acionamento/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bocal-de-lubrificacao-do-acionamento/01.avif</image:loc>
+      <image:title>Bocal de Lubrificação do Acionamento — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-6t31</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-6t31/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-6t31/01.avif</image:loc>
+      <image:title>Bomba Óleo 6T31 — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=capa-shel-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/capa-shel-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/capa-shel-2/01.avif</image:loc>
+      <image:title>Capa Shell 2 — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=catraca-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/catraca-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/catraca-3/01.avif</image:loc>
+      <image:title>Catraca — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-da-articulacao-de-acionamento</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-da-articulacao-de-acionamento/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-da-articulacao-de-acionamento/01.avif</image:loc>
+      <image:title>Conjunto da Articulação de Acionamento — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-da-valvula-do-solenoide-descontrole-corpo-e-tcm</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-da-valvula-do-solenoide-descontrole-corpo-e-tcm/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-da-valvula-do-solenoide-descontrole-corpo-e-tcm/01.avif</image:loc>
+      <image:title>Conjunto da Válvula do Solenoide de Controle (Corpo e TCM) — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-de-embreagem-de-entrada-saida-reacao</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-de-embreagem-de-entrada-saida-reacao/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-de-embreagem-de-entrada-saida-reacao/01.avif</image:loc>
+      <image:title>Conjunto de Embreagem de Entrada,Saída,Reação — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-de-embreagem-de-marcha-re-3-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-de-embreagem-de-marcha-re-3-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-de-embreagem-de-marcha-re-3-5/02.avif</image:loc>
+      <image:title>Conjunto de Embreagem de Marcha Ré 3/5 — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-1/01.avif</image:loc>
+      <image:title>Corpo de Válvula — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=defletor-do-suporte-do-diferencial-dianteiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/defletor-do-suporte-do-diferencial-dianteiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/defletor-do-suporte-do-diferencial-dianteiro/01.avif</image:loc>
+      <image:title>Defletor do Suporte do Diferencial Dianteiro — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial/01.avif</image:loc>
+      <image:title>Diferencial — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos/01.avif</image:loc>
+      <image:title>Discos — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-de-estacionamento</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-de-estacionamento/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-de-estacionamento/01.avif</image:loc>
+      <image:title>Embreagem de Estacionamento — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-do-aneldo-diferencial-dianteiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-do-aneldo-diferencial-dianteiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-do-aneldo-diferencial-dianteiro/01.avif</image:loc>
+      <image:title>Embreagem do Anel do Diferencial Dianteiro — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-planetaria-acionamento-final</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-planetaria-acionamento-final/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-planetaria-acionamento-final/01.avif</image:loc>
+      <image:title>Embreagem Planetária Acionamento Final — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=montagem-emgrenagem-central-de-reacao</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/montagem-emgrenagem-central-de-reacao/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/montagem-emgrenagem-central-de-reacao/01.avif</image:loc>
+      <image:title>Montagem Engrenagem Central de Reação — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=modulo-6937</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/modulo-6937/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/modulo-6937/01.avif</image:loc>
+      <image:title>Módulo 6937 — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=pistao</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/pistao/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/pistao/01.avif</image:loc>
+      <image:title>Pistão — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=roda-dentada-acionada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/roda-dentada-acionada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/roda-dentada-acionada/01.avif</image:loc>
+      <image:title>Roda Dentada Acionada — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=sensor-azul</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/sensor-azul/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/sensor-azul/01.avif</image:loc>
+      <image:title>Sensor Azul — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=sensor-de-entrada-gm</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/sensor-de-entrada-gm/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/sensor-de-entrada-gm/01.avif</image:loc>
+      <image:title>Sensor de Entrada - GM — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-de-eixo-de-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-de-eixo-de-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-de-eixo-de-entrada/01.avif</image:loc>
+      <image:title>Suporte de Eixo de Entrada — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=valvula-de-controle-de-nivel-do-fluido-atraz</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/valvula-de-controle-de-nivel-do-fluido-atraz/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/valvula-de-controle-de-nivel-do-fluido-atraz/01.avif</image:loc>
+      <image:title>Válvula de Controle de Nível do Fluido Atrás — CAMBIO 6T31</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=anel-planetario</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/anel-planetario/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/anel-planetario/01.avif</image:loc>
+      <image:title>Anel Planetário — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-a245</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-a245/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-a245/01.avif</image:loc>
+      <image:title>Bomba Óleo - A245 — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cinta</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cinta/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cinta/01.avif</image:loc>
+      <image:title>Cinta — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-embreagem-1-vias-do-underdriver</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-embreagem-1-vias-do-underdriver/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-embreagem-1-vias-do-underdriver/01.avif</image:loc>
+      <image:title>Conjunto Embreagem 1 Vias do Underdrive — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-embreagem-de-1-vias</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-embreagem-de-1-vias/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-embreagem-de-1-vias/01.avif</image:loc>
+      <image:title>Conjunto Embreagem de 1 Vias — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjnto-embreagem-planetaria-dianteira</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjnto-embreagem-planetaria-dianteira/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjnto-embreagem-planetaria-dianteira/01.avif</image:loc>
+      <image:title>Conjunto Embreagem Planetária Dianteira — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-4/01.avif</image:loc>
+      <image:title>Corpo de Válvula — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial-1/01.avif</image:loc>
+      <image:title>Diferencial — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-1/01.avif</image:loc>
+      <image:title>Eixo — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-dianteira</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-dianteira/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-dianteira/01.avif</image:loc>
+      <image:title>Embreagem Dianteira — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-marcha-frente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-marcha-frente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-marcha-frente/01.avif</image:loc>
+      <image:title>Embreagem Marcha Frente — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=sub-conjunto-planetaria</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/sub-conjunto-planetaria/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/sub-conjunto-planetaria/01.avif</image:loc>
+      <image:title>Sub Conjunto Planetária — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=sub-conjunto-sol-planetario-underdrive</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/sub-conjunto-sol-planetario-underdrive/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/sub-conjunto-sol-planetario-underdrive/01.avif</image:loc>
+      <image:title>Sub Conjunto Sol Planetário Underdrive — COROLLA - A240 / A245E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=anel-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/anel-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/anel-entrada/01.avif</image:loc>
+      <image:title>Anel Entrada — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-8</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-8/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-8/01.avif</image:loc>
+      <image:title>Bomba de Óleo — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carregador-planetario</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carregador-planetario/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carregador-planetario/01.avif</image:loc>
+      <image:title>Carregador Planetário — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-k112</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-k112/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-k112/01.avif</image:loc>
+      <image:title>Conjunto CVT - K112 — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-mola</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-mola/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-mola/01.avif</image:loc>
+      <image:title>Conjunto Mola — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-polia</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-polia/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-polia/02.avif</image:loc>
+      <image:title>Conjunto Polia — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-k112</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-k112/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-k112/01.avif</image:loc>
+      <image:title>Corpo Válvula - K112 — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-5/01.avif</image:loc>
+      <image:title>Discos — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-de-entrada-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-de-entrada-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-de-entrada-3/01.avif</image:loc>
+      <image:title>Eixo de Entrada — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-solar-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-solar-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-solar-2/01.avif</image:loc>
+      <image:title>Engrenagem Solar — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=interna-k112</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/interna-k112/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/interna-k112/01.avif</image:loc>
+      <image:title>Interna K112 — COROLLA - K112</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-k313</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-k313/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-k313/01.avif</image:loc>
+      <image:title>Conjunto CVT - K313 — COROLLA - K313</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-k313</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-k313/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-k313/01.avif</image:loc>
+      <image:title>Conjunto Planetário - K313 — COROLLA - K313</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-2/01.avif</image:loc>
+      <image:title>Bomba de Óleo — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-sub-marcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-sub-marcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-sub-marcha/01.avif</image:loc>
+      <image:title>Conjunto Planetário Sub Marcha — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valuvla-u240</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valuvla-u240/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valuvla-u240/01.avif</image:loc>
+      <image:title>Corpo Válvula U240 — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cuboembreagem-frente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cuboembreagem-frente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cuboembreagem-frente/01.avif</image:loc>
+      <image:title>Cubo Embreagem Frente — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial-2/01.avif</image:loc>
+      <image:title>Diferencial — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-intermediaria-motriz</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-intermediaria-motriz/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-intermediaria-motriz/01.avif</image:loc>
+      <image:title>Engrenagem Intermediária Motriz — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-marcha-frente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-marcha-frente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-marcha-frente/01.avif</image:loc>
+      <image:title>Engrenagem Marcha Frente — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-solar</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-solar/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-solar/01.avif</image:loc>
+      <image:title>Engrenagem Solar — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-sub-marcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-sub-marcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-sub-marcha/01.avif</image:loc>
+      <image:title>Engrenagem Sub Marcha — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=luva-externa</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/luva-externa/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/luva-externa/01.avif</image:loc>
+      <image:title>Luva Externa — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=roda-livre-sub-marcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/roda-livre-sub-marcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/roda-livre-sub-marcha/01.avif</image:loc>
+      <image:title>Roda Livre Sub Marcha — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=roda-livre-traseira</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/roda-livre-traseira/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/roda-livre-traseira/01.avif</image:loc>
+      <image:title>Roda Livre Traseira — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-5/01.avif</image:loc>
+      <image:title>Tampa Traseira — COROLLA - U240E / U241E</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-5/01.avif</image:loc>
+      <image:title>Bomba de Óleo — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-10</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-10/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-10/01.avif</image:loc>
+      <image:title>Bomba Óleo — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-disco</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-disco/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-disco/01.avif</image:loc>
+      <image:title>Conjunto Disco — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-4/01.avif</image:loc>
+      <image:title>Conjunto Planetário — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-8</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-8/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-8/02.avif</image:loc>
+      <image:title>Corpo de Válvula — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-c-chicote</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-c-chicote/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-c-chicote/01.avif</image:loc>
+      <image:title>Corpo Válvula c/ Chicote — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-2/01.avif</image:loc>
+      <image:title>Discos — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-entrada/01.avif</image:loc>
+      <image:title>Eixo Entrada — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-4/01.avif</image:loc>
+      <image:title>Planetária — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-direta</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-direta/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-direta/01.avif</image:loc>
+      <image:title>Tambor Direta — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-direta-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-direta-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-direta-1/02.avif</image:loc>
+      <image:title>Tambor Direta — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-tampa</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-tampa/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-tampa/01.avif</image:loc>
+      <image:title>Tambor Tampa — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-2/01.avif</image:loc>
+      <image:title>Tampa Traseira — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-8</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-8/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-8/01.avif</image:loc>
+      <image:title>Tampa Traseira — COROLLA - U341</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-3/01.avif</image:loc>
+      <image:title>Bomba Óleo — COROLLA K120</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt/01.avif</image:loc>
+      <image:title>Conjunto CVT — COROLLA K120</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-6/01.avif</image:loc>
+      <image:title>Corpo de Válvula — COROLLA K120</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial-3/02.avif</image:loc>
+      <image:title>Diferencial — COROLLA K120</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator-bomba-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator-bomba-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator-bomba-oleo/01.avif</image:loc>
+      <image:title>Estator Bomba Óleo — COROLLA K120</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-completo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-completo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-completo/01.avif</image:loc>
+      <image:title>Tambor Completo — COROLLA K120</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-6f15</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-6f15/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-6f15/01.avif</image:loc>
+      <image:title>Bomba Óleo - 6F15 — FORD - 6F15 (KA/ECOSPORT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora-6f15</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora-6f15/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora-6f15/01.avif</image:loc>
+      <image:title>Chave Seletora - 6F15 — FORD - 6F15 (KA/ECOSPORT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-6f15</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-6f15/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-6f15/01.avif</image:loc>
+      <image:title>Corpo Válvula - 6F15 — FORD - 6F15 (KA/ECOSPORT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-1/01.avif</image:loc>
+      <image:title>Conjunto CVT — FORD TERRITORY</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-3/01.avif</image:loc>
+      <image:title>Corpo Válvula — FORD TERRITORY</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-5/01.avif</image:loc>
+      <image:title>Bomba Óleo — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote-1/01.avif</image:loc>
+      <image:title>Chicote — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-2/01.avif</image:loc>
+      <image:title>Conjunto CVT — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-1/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-67x38x32</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-67x38x32/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-67x38x32/01.avif</image:loc>
+      <image:title>Conjunto Diferencial (67X38X32) — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario-2/01.avif</image:loc>
+      <image:title>Conjunto Planetário — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-4/01.avif</image:loc>
+      <image:title>Corpo Válvula — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corrente-cvt-honda-1-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corrente-cvt-honda-1-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corrente-cvt-honda-1-5/01.avif</image:loc>
+      <image:title>Corrente CVT - Honda 1.5 — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carte</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carte/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carte/01.avif</image:loc>
+      <image:title>Cárter — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator-da-bomba</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator-da-bomba/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator-da-bomba/01.avif</image:loc>
+      <image:title>Estator da Bomba — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-traseiro-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-traseiro-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-traseiro-1/01.avif</image:loc>
+      <image:title>Tambor Traseiro — HONDA (CITY, FIT, WRV) MODERNO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-10</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-10/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-10/01.avif</image:loc>
+      <image:title>Bomba de Óleo — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote-4/01.avif</image:loc>
+      <image:title>Chicote — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-67x38x32-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-67x38x32-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-67x38x32-1/01.avif</image:loc>
+      <image:title>Conjunto Diferencial (67X38X32) — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-pulia</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-pulia/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-pulia/01.avif</image:loc>
+      <image:title>Conjunto Pulia — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-10</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-10/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-10/01.avif</image:loc>
+      <image:title>Corpo de Válvula — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corrente-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corrente-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corrente-1/01.avif</image:loc>
+      <image:title>Corrente — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carte-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carte-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carte-3/01.avif</image:loc>
+      <image:title>Cárter — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=defletor</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/defletor/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/defletor/01.avif</image:loc>
+      <image:title>Defletor — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator-1/01.avif</image:loc>
+      <image:title>Estator — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-5/01.avif</image:loc>
+      <image:title>Planetária — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=prato-mola</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/prato-mola/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/prato-mola/01.avif</image:loc>
+      <image:title>Prato Mola — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=protetor-de-oleo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/protetor-de-oleo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/protetor-de-oleo/01.avif</image:loc>
+      <image:title>Protetor de Óleo — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-de-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-de-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-de-entrada/01.avif</image:loc>
+      <image:title>Tambor de Entrada — HONDA CIVIC (2.0 CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-12</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-12/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-12/01.avif</image:loc>
+      <image:title>Bomba de Óleo — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-6/02.avif</image:loc>
+      <image:title>Bomba Óleo — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote-5/01.avif</image:loc>
+      <image:title>Chicote — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-12</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-12/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-12/01.avif</image:loc>
+      <image:title>Corpo de Válvula — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula/01.avif</image:loc>
+      <image:title>Corpo Válvula — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-9</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-9/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-9/02.avif</image:loc>
+      <image:title>Corpo Válvula — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carter</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carter/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carter/02.avif</image:loc>
+      <image:title>Cárter — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=carte-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/carte-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/carte-4/01.avif</image:loc>
+      <image:title>Cárter — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=defletor-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/defletor-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/defletor-2/01.avif</image:loc>
+      <image:title>Defletor — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=disco-composite-e-aco</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/disco-composite-e-aco/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/disco-composite-e-aco/02.avif</image:loc>
+      <image:title>Disco Composite e Aço — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-7</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-7/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-7/01.avif</image:loc>
+      <image:title>Discos — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-de-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-de-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-de-entrada/02.avif</image:loc>
+      <image:title>Eixo de Entrada — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator-2/01.avif</image:loc>
+      <image:title>Estator — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator-da-bomba-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator-da-bomba-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator-da-bomba-1/02.avif</image:loc>
+      <image:title>Estator da Bomba — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=par-defletor</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/par-defletor/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/par-defletor/02.avif</image:loc>
+      <image:title>Par Defletor — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-6/01.avif</image:loc>
+      <image:title>Planetária — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=prato-mola-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/prato-mola-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/prato-mola-1/01.avif</image:loc>
+      <image:title>Prato Mola — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-entrada</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-entrada/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-entrada/01.avif</image:loc>
+      <image:title>Tambor Entrada — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira/02.avif</image:loc>
+      <image:title>Tampa Traseira — HR-V (CVT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-3/01.avif</image:loc>
+      <image:title>Bomba de Óleo — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-star-stop</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-star-stop/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-star-stop/01.avif</image:loc>
+      <image:title>Bomba Star Stop — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora-4/02.avif</image:loc>
+      <image:title>Chave Seletora — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-corrente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-corrente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-corrente/01.avif</image:loc>
+      <image:title>Conjunto CVT + Corrente — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-com-corrente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-com-corrente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-com-corrente/01.avif</image:loc>
+      <image:title>Conjunto CVT com Corrente — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-disco-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-disco-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-disco-1/01.avif</image:loc>
+      <image:title>Conjunto Disco — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planetario</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planetario/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planetario/01.avif</image:loc>
+      <image:title>Conjunto Planetário — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-5/01.avif</image:loc>
+      <image:title>Corpo de Válvula — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-2/01.avif</image:loc>
+      <image:title>Corpo Válvula — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corrente</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corrente/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corrente/01.avif</image:loc>
+      <image:title>Corrente — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-de-entrada-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-de-entrada-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-de-entrada-2/01.avif</image:loc>
+      <image:title>Eixo de Entrada — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-3/01.avif</image:loc>
+      <image:title>Planetária — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=sensores</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/sensores/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/sensores/01.avif</image:loc>
+      <image:title>Sensores — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-embreagem-alta</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-embreagem-alta/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-embreagem-alta/01.avif</image:loc>
+      <image:title>Tambor Embreagem Alta — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-central</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-central/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-central/01.avif</image:loc>
+      <image:title>Tampa Central — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-6/01.avif</image:loc>
+      <image:title>Tampa Traseira — JF-015 (RENAULT)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-1/01.avif</image:loc>
+      <image:title>Bomba de Óleo — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-cvt-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-cvt-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-cvt-3/01.avif</image:loc>
+      <image:title>Conjunto CVT — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-dianteiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-dianteiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-dianteiro/01.avif</image:loc>
+      <image:title>Conjunto Dianteiro — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-1/01.avif</image:loc>
+      <image:title>Corpo Válvula — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corrente-bomba</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corrente-bomba/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corrente-bomba/01.avif</image:loc>
+      <image:title>Corrente Bomba — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=defletor-difererncial</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/defletor-difererncial/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/defletor-difererncial/01.avif</image:loc>
+      <image:title>Defletor Diferencial — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial-6x49x20</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial-6x49x20/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial-6x49x20/01.avif</image:loc>
+      <image:title>Diferencial (6X49X20) — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial-71x51x20</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial-71x51x20/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial-71x51x20/01.avif</image:loc>
+      <image:title>Diferencial - 71X51X20 — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=diferencial-4x4-71x50x20</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/diferencial-4x4-71x50x20/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/diferencial-4x4-71x50x20/01.avif</image:loc>
+      <image:title>Diferencial 4X4 - 71X50X20 — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-1/01.avif</image:loc>
+      <image:title>Discos — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=estator-bomba</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/estator-bomba/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/estator-bomba/01.avif</image:loc>
+      <image:title>Estator Bomba — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=pistao-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/pistao-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/pistao-1/01.avif</image:loc>
+      <image:title>Pistão — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planearia</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planearia/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planearia/01.avif</image:loc>
+      <image:title>Planetária — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=sensor</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/sensor/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/sensor/01.avif</image:loc>
+      <image:title>Sensor — JF011</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-11</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-11/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-11/01.avif</image:loc>
+      <image:title>Bomba de Óleo — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-9</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-9/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-9/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-planeterio</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-planeterio/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-planeterio/01.avif</image:loc>
+      <image:title>Conjunto Planetário — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-pulia-cvt</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-pulia-cvt/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-pulia-cvt/03.avif</image:loc>
+      <image:title>Conjunto Pulia CVT — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-de-valvula-11</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-de-valvula-11/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-de-valvula-11/01.avif</image:loc>
+      <image:title>Corpo de Válvula — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=defletor-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/defletor-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/defletor-1/01.avif</image:loc>
+      <image:title>Defletor — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=discos-6</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/discos-6/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/discos-6/01.avif</image:loc>
+      <image:title>Discos — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-direta</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-direta/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-direta/01.avif</image:loc>
+      <image:title>Eixo Direta — K310 FIAT 1.3</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-livina</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-livina/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-livina/01.avif</image:loc>
+      <image:title>Bomba Óleo - livina — RE4F03A - NISSAN</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-2/01.avif</image:loc>
+      <image:title>Bomba Óleo — TF-72</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-tf72</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-tf72/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-tf72/01.avif</image:loc>
+      <image:title>Conjunto Diferencial - TF72 — TF-72</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-embreagem-c1-c3-b2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-embreagem-c1-c3-b2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-embreagem-c1-c3-b2/01.avif</image:loc>
+      <image:title>Conjunto Embreagem - C1/C3/B2 — TF-72</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria/01.avif</image:loc>
+      <image:title>Planetária — TF-72</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-11</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-11/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-11/01.avif</image:loc>
+      <image:title>Bomba Óleo — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=catraca-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/catraca-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/catraca-2/01.avif</image:loc>
+      <image:title>Catraca — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial-3/02.avif</image:loc>
+      <image:title>Conjunto Diferencial — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-11</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-11/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-11/01.avif</image:loc>
+      <image:title>Corpo Válvula — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=eixo-entrada-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/eixo-entrada-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/eixo-entrada-1/01.avif</image:loc>
+      <image:title>Eixo Entrada — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-2/01.avif</image:loc>
+      <image:title>Planetária — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-c1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-c1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-c1/01.avif</image:loc>
+      <image:title>Tambor C1 — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-c2</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-c2/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-c2/03.avif</image:loc>
+      <image:title>Tambor C2 — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-c3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-c3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-c3/01.avif</image:loc>
+      <image:title>Tambor C3 — TF81SC (6 SP F/4WD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-de-oleo-9</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-de-oleo-9/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-de-oleo-9/01.avif</image:loc>
+      <image:title>Bomba de Óleo — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=bomba-oleo-4</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/bomba-oleo-4/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/bomba-oleo-4/01.avif</image:loc>
+      <image:title>Bomba Óleo — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=capa-shell</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/capa-shell/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/capa-shell/01.avif</image:loc>
+      <image:title>Capa Shell — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora-5</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora-5/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora-5/01.avif</image:loc>
+      <image:title>Chave Seletora — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora/01.avif</image:loc>
+      <image:title>Chave Seletora — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chicote-3</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chicote-3/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chicote-3/01.avif</image:loc>
+      <image:title>Chicote — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=chave-seletora-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/chave-seletora-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/chave-seletora-1/01.avif</image:loc>
+      <image:title>Chicote Solenoides — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-da-embreagem-planetaria</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-da-embreagem-planetaria/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-da-embreagem-planetaria/01.avif</image:loc>
+      <image:title>Conjunto da Embreagem Planetária — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=conjunto-diferencial</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/conjunto-diferencial/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/conjunto-diferencial/01.avif</image:loc>
+      <image:title>Conjunto Diferencial — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=cubo-embreagem-diretra</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/cubo-embreagem-diretra/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/cubo-embreagem-diretra/01.avif</image:loc>
+      <image:title>Cubo Embreagem Direta — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=embreagem-unidirecional</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/embreagem-unidirecional/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/embreagem-unidirecional/01.avif</image:loc>
+      <image:title>Embreagem Unidirecional — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=engrenagem-overdrive</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/engrenagem-overdrive/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/engrenagem-overdrive/01.avif</image:loc>
+      <image:title>Engrenagem Overdrive — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=hub-separador</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/hub-separador/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/hub-separador/01.avif</image:loc>
+      <image:title>HUB Separador — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-eixo</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-eixo/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-eixo/01.avif</image:loc>
+      <image:title>Tambor + Eixo — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-solar</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-solar/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-solar/01.avif</image:loc>
+      <image:title>Tambor Solar — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-submarcha</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-submarcha/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-submarcha/01.avif</image:loc>
+      <image:title>Tambor Submarcha — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-traseiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-traseiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-traseiro/01.avif</image:loc>
+      <image:title>Tambor Traseiro — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tampa-traseira-11</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tampa-traseira-11/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tampa-traseira-11/01.avif</image:loc>
+      <image:title>Tampa Traseira — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=arevore-intermediaria</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/arevore-intermediaria/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/arevore-intermediaria/01.avif</image:loc>
+      <image:title>Árvore Intermediária — U442E (4 SP FWD)</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=corpo-valvula-10</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/corpo-valvula-10/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/corpo-valvula-10/01.avif</image:loc>
+      <image:title>Corpo Válvula — V4A51</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=planetaria-1</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/planetaria-1/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/planetaria-1/01.avif</image:loc>
+      <image:title>Planetária — V4A51</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=suporte-traseiro</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/suporte-traseiro/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/suporte-traseiro/01.avif</image:loc>
+      <image:title>Suporte Traseiro — V4A51</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://caambiocwb.com.br/produto.html?id=tambor-overdrive</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://caambiocwb.com.br/peca/tambor-overdrive/</loc>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://caambiocwb.com.br/assets/produtos/tambor-overdrive/01.avif</image:loc>
+      <image:title>Tambor Overdrive — V4A51</image:title>
+    </image:image>
   </url>
 </urlset>

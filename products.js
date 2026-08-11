@@ -2917,12 +2917,12 @@ var PRODUCTS = [
    usada nos cards; as demais só existem no tamanho grande. */
 function productPhoto(product, numero) {
   var n = numero || 1;
-  return 'assets/produtos/' + product.id + '/' + (n < 10 ? '0' + n : n) + '.avif';
+  return '/assets/produtos/' + product.id + '/' + (n < 10 ? '0' + n : n) + '.avif';
 }
 
 function productThumb(product) {
   var n = product.cover || 1;
-  return 'assets/produtos/' + product.id + '/' + (n < 10 ? '0' + n : n) + '-thumb.avif';
+  return '/assets/produtos/' + product.id + '/' + (n < 10 ? '0' + n : n) + '-thumb.avif';
 }
 
 function getProductById(id) {
@@ -2981,12 +2981,14 @@ function getRelatedProducts(product, limit) {
   return mesma.concat(outras.slice(0, max - mesma.length));
 }
 
+/* Endereço de diretório: /peca/<id>/ — a página existe como arquivo,
+   gerada por ferramentas/gerar-site.py. */
 function buildProductUrl(productId) {
-  return 'produto.html?id=' + encodeURIComponent(productId);
+  return '/peca/' + productId + '/';
 }
 
 function buildCategoryUrl(category) {
-  return 'loja.html?transmissao=' + encodeURIComponent(category);
+  return '/loja/?transmissao=' + encodeURIComponent(category);
 }
 
 /* Card usado na loja e na lista de peças relacionadas.

@@ -1,11 +1,31 @@
 /* ============================================================
    CAAMBIOCWB — folha de estilo única
-   1. Tokens          6. Rodapé
-   2. Base            7. Home
-   3. Utilitários     8. Sobre / Contato
-   4. Botões          9. Loja / Produto
-   5. Cabeçalho      10. Responsivo, impressão
+   0. Fontes          6. Rodapé
+   1. Tokens          7. Home
+   2. Base            8. Sobre / Contato
+   3. Utilitários     9. Loja / Produto
+   4. Botões         10. Responsivo, impressão
+   5. Cabeçalho
    ============================================================ */
+
+/* ---------- 0. fontes ---------- */
+/* Auto-hospedadas: uma origem a menos para o navegador resolver, e o
+   visitante não passa pelo Google só para ler o site. São as versões
+   variáveis, um arquivo por família cobrindo toda a faixa de peso. */
+@font-face{
+  font-family:'Montserrat';
+  src:url('/assets/fontes/montserrat.woff2') format('woff2');
+  font-weight:400 800;
+  font-style:normal;
+  font-display:swap;
+}
+@font-face{
+  font-family:'Lora';
+  src:url('/assets/fontes/lora.woff2') format('woff2');
+  font-weight:600 700;
+  font-style:normal;
+  font-display:swap;
+}
 
 /* ---------- 1. tokens ---------- */
 :root{

@@ -1,0 +1,141 @@
+<!--meta
+{
+ "titulo": "Contato | CAAMBIOCWB",
+ "descricao": "Fale com a CAAMBIOCWB: WhatsApp (41) 99693-9384, contato@caambiocwb.com.br. Loja na R. Francisco Derosso, 6460 - 3, Alto Boqueirão, Curitiba — PR. Seg a Sex, 08h30 às 18h00.",
+ "pagina": "contato",
+ "og_titulo": "Contato | CAAMBIOCWB",
+ "og_descricao": "WhatsApp, telefone, e-mail e endereço da CAAMBIOCWB em Curitiba — PR.",
+ "og_tipo": "website",
+ "noindex": false
+}
+-->
+<main id="conteudo">
+
+    <div class="page-header">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Você está em">
+          <a href="/">Início</a>
+          <span class="sep" aria-hidden="true">/</span>
+          <span class="current">Contato</span>
+        </nav>
+        <h1>Entre em contato</h1>
+        <p>
+          Estamos sempre prontos para atendê-lo. Fale com a gente para obter mais
+          informações sobre nossas peças de reposição para transmissão automática.
+        </p>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container contact-grid">
+
+        <div>
+          <ul class="info-list">
+            <li class="info-item">
+              <span class="info-icon"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg></span>
+              <div>
+                <h2>WhatsApp e telefone</h2>
+                <p>
+                  (41) 99693-9384 — Gabriel Melniski<br />
+                  <a class="link" href="https://wa.me/5541996939384?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+                  ou <a class="link" href="tel:+5541996939384">ligar agora</a>
+                </p>
+              </div>
+            </li>
+            <li class="info-item">
+              <span class="info-icon"><svg class="ico" aria-hidden="true"><use href="#i-envelope"></use></svg></span>
+              <div>
+                <h2>E-mail</h2>
+                <p><a href="mailto:contato@caambiocwb.com.br">contato@caambiocwb.com.br</a></p>
+              </div>
+            </li>
+            <li class="info-item">
+              <span class="info-icon"><svg class="ico" aria-hidden="true"><use href="#i-clock"></use></svg></span>
+              <div>
+                <h2>Horários</h2>
+                <p>
+                  Segunda a sexta<br />08h30 às 18h00<br />
+                  <span class="shop-status" data-business-status hidden></span>
+                </p>
+              </div>
+            </li>
+            <li class="info-item">
+              <span class="info-icon"><svg class="ico" aria-hidden="true"><use href="#i-location-dot"></use></svg></span>
+              <div>
+                <h2>Endereço</h2>
+                <p>
+                  R. Francisco Derosso, 6460 - 3<br />Alto Boqueirão — Curitiba — PR<br />
+                  <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Francisco%20Derosso%2C%206460%20-%20Alto%20Boqueir%C3%A3o%2C%20Curitiba%20-%20PR" target="_blank" rel="noopener">Traçar rota</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="map-frame">
+            <iframe
+              title="Mapa com a localização da CAAMBIOCWB em Curitiba"
+              src="https://www.google.com/maps?q=R.%20Francisco%20Derosso%2C%206460%20-%20Alto%20Boqueir%C3%A3o%2C%20Curitiba%20-%20PR&amp;output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div>
+          <form class="contact-form" id="contact-form" novalidate="">
+            <h2>Conte o que você precisa</h2>
+
+            <div class="form-row">
+              <label class="field">
+                <span>Nome</span>
+                <input type="text" name="nome" autocomplete="given-name" required />
+              </label>
+              <label class="field">
+                <span>Sobrenome</span>
+                <input type="text" name="sobrenome" autocomplete="family-name" required />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label class="field">
+                <span>E-mail</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label class="field">
+                <span>Telefone <em class="optional">(opcional)</em></span>
+                <input type="tel" name="telefone" inputmode="tel" autocomplete="tel" />
+              </label>
+            </div>
+
+            <label class="field">
+              <span>Veículo ou câmbio <em class="optional">(opcional)</em></span>
+              <input type="text" name="veiculo" placeholder="Ex.: Onix 1.4 automático, câmbio 6T30" />
+            </label>
+
+            <label class="field">
+              <span>Mensagem</span>
+              <textarea name="mensagem" rows="6" required
+                        placeholder="Qual peça você procura? Se souber o código da transmissão, ajuda muito."></textarea>
+            </label>
+
+            <div class="btn-row">
+              <button type="submit" class="btn btn-wa">
+                <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"></use></svg> Enviar pelo WhatsApp
+              </button>
+              <button type="button" class="btn btn-outline" data-send-email>
+                <svg class="ico" aria-hidden="true"><use href="#i-envelope"></use></svg> Enviar por e-mail
+              </button>
+            </div>
+
+            <p class="form-note">
+              O formulário monta a mensagem e abre o WhatsApp ou o seu programa de
+              e-mail — nada é armazenado neste site. Seus dados são usados apenas
+              para responder este contato.
+            </p>
+
+            <div class="form-feedback" id="form-feedback" role="status" tabindex="-1" hidden></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>

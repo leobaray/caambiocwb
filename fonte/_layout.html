@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>{{titulo}}</title>
+  <meta name="description" content="{{descricao}}" />
+  <link rel="canonical" href="{{canonical}}" />
+{{robots}}
+  <meta name="theme-color" content="#0c0c0c" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <meta property="og:type" content="{{og_tipo}}" />
+  <meta property="og:site_name" content="CAAMBIOCWB" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="{{og_titulo}}" />
+  <meta property="og:description" content="{{og_descricao}}" />
+  <meta property="og:url" content="{{canonical}}" />
+  <meta property="og:image" content="{{og_imagem}}" />
+  <meta property="og:image:alt" content="{{og_imagem_alt}}" />
+  <meta property="og:image:type" content="{{og_imagem_tipo}}" />
+  <meta property="og:image:width" content="{{og_imagem_largura}}" />
+  <meta property="og:image:height" content="{{og_imagem_altura}}" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fontes/montserrat.woff2" crossorigin />
+  <link rel="preload" as="font" type="font/woff2" href="/assets/fontes/lora.woff2" crossorigin />
+  <link rel="stylesheet" href="/styles.css?v={{versao}}" />
+{{jsonld}}
+</head>
+<body data-page="{{pagina}}">
+{{icones}}
+{{cabecalho}}
+{{conteudo}}
+{{rodape}}
+{{scripts}}
+</body>
+</html>

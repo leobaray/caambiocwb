@@ -30,7 +30,7 @@ PORTA = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
 # Pastas que existem no repositório mas não fazem parte do site publicado:
 # histórico do git, os 216 MB de fotos originais, o material de origem do
 # site antigo e as ferramentas de manutenção.
-BLOQUEADAS = {'.git', '.claude', 'fotos-originais', 'referencia', 'ferramentas'}
+BLOQUEADAS = {'.git', '.claude', 'fotos-originais', 'referencia', 'ferramentas', 'fonte'}
 
 # O Windows não registra estes tipos, e sem eles o navegador não exibe.
 mimetypes.add_type('image/avif', '.avif')
@@ -38,6 +38,8 @@ mimetypes.add_type('image/svg+xml', '.svg')
 mimetypes.add_type('image/webp', '.webp')
 mimetypes.add_type('text/css', '.css')
 mimetypes.add_type('application/javascript', '.js')
+mimetypes.add_type('font/woff2', '.woff2')
+mimetypes.add_type('application/manifest+json', '.webmanifest')
 
 CACHE_LONGO = ('/assets/',)
 
